@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RWSS_WMiI.Views.About">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,30"
+            Spacing="15">
+
+            <Label Text="O aplikacji" Style="{StaticResource Headline}"/>
+
+            <Image
+                Source="logo_rwss.png"
+                HeightRequest="150"/>
+            
+            <Label
+                Text="Aplikcaja służy do: &#10; - ustalenia położenia klucza do biura &#10; - posiadania klucza przez daną osobę &#10; - ustalenia czy ktoś będzie potrzebował klucza w danym dniu "
+                FontSize="20"
+                HorizontalTextAlignment="Center"
+                />
+
+            <Label
+                Text="Możliwe rozbudowanie w przyszłości o dodatkowe funkcje &#10; &#10; "
+                FontSize="15"
+                HorizontalTextAlignment="Center"
+                />
+
+            <Label
+                Text=" Autorzy: &#10; Maciej Krajewski, Jakub Baliński"
+                FontSize="12"
+                HorizontalTextAlignment="Center"
+                />
+            <Label
+                Text="Wykonane na zlecenie RWSS WMiI "
+                FontSize="8"
+                HorizontalTextAlignment="Center"
+                />
+            
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

@@ -1,0 +1,121 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\makro\\source\\repos\\RWSS_WMiI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{83A75B01-8B13-4CEE-80F3-0E0DED105D69}|RWSS_WMiI\\RWSS_WMiI.csproj|c:\\users\\makro\\source\\repos\\rwss_wmii\\rwss_wmii\\views\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83A75B01-8B13-4CEE-80F3-0E0DED105D69}|RWSS_WMiI\\RWSS_WMiI.csproj|solutionrelative:rwss_wmii\\views\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83A75B01-8B13-4CEE-80F3-0E0DED105D69}|RWSS_WMiI\\RWSS_WMiI.csproj|c:\\users\\makro\\source\\repos\\rwss_wmii\\rwss_wmii\\platforms\\android\\resources\\values\\colors.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{83A75B01-8B13-4CEE-80F3-0E0DED105D69}|RWSS_WMiI\\RWSS_WMiI.csproj|solutionrelative:rwss_wmii\\platforms\\android\\resources\\values\\colors.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83A75B01-8B13-4CEE-80F3-0E0DED105D69}|RWSS_WMiI\\RWSS_WMiI.csproj|c:\\users\\makro\\source\\repos\\rwss_wmii\\rwss_wmii\\resources\\styles\\colors.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{83A75B01-8B13-4CEE-80F3-0E0DED105D69}|RWSS_WMiI\\RWSS_WMiI.csproj|solutionrelative:rwss_wmii\\resources\\styles\\colors.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83A75B01-8B13-4CEE-80F3-0E0DED105D69}|RWSS_WMiI\\RWSS_WMiI.csproj|c:\\users\\makro\\source\\repos\\rwss_wmii\\rwss_wmii\\resources\\styles\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{83A75B01-8B13-4CEE-80F3-0E0DED105D69}|RWSS_WMiI\\RWSS_WMiI.csproj|solutionrelative:rwss_wmii\\resources\\styles\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83A75B01-8B13-4CEE-80F3-0E0DED105D69}|RWSS_WMiI\\RWSS_WMiI.csproj|c:\\users\\makro\\source\\repos\\rwss_wmii\\rwss_wmii\\views\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{83A75B01-8B13-4CEE-80F3-0E0DED105D69}|RWSS_WMiI\\RWSS_WMiI.csproj|solutionrelative:rwss_wmii\\views\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83A75B01-8B13-4CEE-80F3-0E0DED105D69}|RWSS_WMiI\\RWSS_WMiI.csproj|c:\\users\\makro\\source\\repos\\rwss_wmii\\rwss_wmii\\views\\account.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{83A75B01-8B13-4CEE-80F3-0E0DED105D69}|RWSS_WMiI\\RWSS_WMiI.csproj|solutionrelative:rwss_wmii\\views\\account.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "colors.xml",
+              "DocumentMoniker": "C:\\Users\\makro\\source\\repos\\RWSS_WMiI\\RWSS_WMiI\\Platforms\\Android\\Resources\\values\\colors.xml",
+              "RelativeDocumentMoniker": "RWSS_WMiI\\Platforms\\Android\\Resources\\values\\colors.xml",
+              "ToolTip": "C:\\Users\\makro\\source\\repos\\RWSS_WMiI\\RWSS_WMiI\\Platforms\\Android\\Resources\\values\\colors.xml",
+              "RelativeToolTip": "RWSS_WMiI\\Platforms\\Android\\Resources\\values\\colors.xml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2024-03-21T17:55:24.389Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Styles.xaml",
+              "DocumentMoniker": "C:\\Users\\makro\\source\\repos\\RWSS_WMiI\\RWSS_WMiI\\Resources\\Styles\\Styles.xaml",
+              "RelativeDocumentMoniker": "RWSS_WMiI\\Resources\\Styles\\Styles.xaml",
+              "ToolTip": "C:\\Users\\makro\\source\\repos\\RWSS_WMiI\\RWSS_WMiI\\Resources\\Styles\\Styles.xaml",
+              "RelativeToolTip": "RWSS_WMiI\\Resources\\Styles\\Styles.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-21T17:55:11.348Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Colors.xaml",
+              "DocumentMoniker": "C:\\Users\\makro\\source\\repos\\RWSS_WMiI\\RWSS_WMiI\\Resources\\Styles\\Colors.xaml",
+              "RelativeDocumentMoniker": "RWSS_WMiI\\Resources\\Styles\\Colors.xaml",
+              "ToolTip": "C:\\Users\\makro\\source\\repos\\RWSS_WMiI\\RWSS_WMiI\\Resources\\Styles\\Colors.xaml",
+              "RelativeToolTip": "RWSS_WMiI\\Resources\\Styles\\Colors.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-21T17:54:59.921Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Account.xaml",
+              "DocumentMoniker": "C:\\Users\\makro\\source\\repos\\RWSS_WMiI\\RWSS_WMiI\\Views\\Account.xaml",
+              "RelativeDocumentMoniker": "RWSS_WMiI\\Views\\Account.xaml",
+              "ToolTip": "C:\\Users\\makro\\source\\repos\\RWSS_WMiI\\RWSS_WMiI\\Views\\Account.xaml",
+              "RelativeToolTip": "RWSS_WMiI\\Views\\Account.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAB4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-21T17:39:41.02Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\makro\\source\\repos\\RWSS_WMiI\\RWSS_WMiI\\Views\\MainPage.xaml",
+              "RelativeDocumentMoniker": "RWSS_WMiI\\Views\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\makro\\source\\repos\\RWSS_WMiI\\RWSS_WMiI\\Views\\MainPage.xaml",
+              "RelativeToolTip": "RWSS_WMiI\\Views\\MainPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAiwBYAAABrAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-21T16:27:58.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\makro\\source\\repos\\RWSS_WMiI\\RWSS_WMiI\\Views\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "RWSS_WMiI\\Views\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\makro\\source\\repos\\RWSS_WMiI\\RWSS_WMiI\\Views\\MainPage.xaml.cs",
+              "RelativeToolTip": "RWSS_WMiI\\Views\\MainPage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T16:27:03.325Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

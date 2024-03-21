@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34714.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RWSS_WMiI", "RWSS_WMiI\RWSS_WMiI.csproj", "{83A75B01-8B13-4CEE-80F3-0E0DED105D69}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{83A75B01-8B13-4CEE-80F3-0E0DED105D69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83A75B01-8B13-4CEE-80F3-0E0DED105D69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83A75B01-8B13-4CEE-80F3-0E0DED105D69}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{83A75B01-8B13-4CEE-80F3-0E0DED105D69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83A75B01-8B13-4CEE-80F3-0E0DED105D69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83A75B01-8B13-4CEE-80F3-0E0DED105D69}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {13BAF67B-48BF-4ADB-B216-66820FA98261}
+	EndGlobalSection
+EndGlobal

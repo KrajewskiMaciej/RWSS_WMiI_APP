@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RWSS_WMiI.Views.Account">
+
+    <ScrollView>
+        <Grid>
+            <StackLayout Padding="10,10,10,0">
+                <Button VerticalOptions="Start" Text="Wyloguj" Command="{Binding LogoutCommand}" HorizontalOptions="End" />
+            </StackLayout>
+            <VerticalStackLayout
+            Padding="10,10"
+            Spacing="15">
+            
+
+            <Label Text="Konto" Style="{StaticResource Headline}"/>
+
+            <Image
+                Source="dotnet_bot.png"
+                HeightRequest="100"/>
+
+            <Label
+                Text="Testowanie aplikacji bunkier-klucz-portiernia &#10; dla RWSS WMiI &#10; Testy przeprowadzane na: &#10; Redmi Note 11 Pro"
+                Style="{StaticResource SubHeadline}"/>
+
+            <Button
+                x:Name="CounterBtn"
+                Text="Click me" 
+                SemanticProperties.Hint="Counts the number of times you click"
+                Clicked="OnCounterClicked"
+                HorizontalOptions="Fill" />
+
+
+            
+        </VerticalStackLayout>
+        </Grid>
+    </ScrollView>
+
+</ContentPage>
