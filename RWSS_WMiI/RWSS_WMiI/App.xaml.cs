@@ -2,10 +2,12 @@
 {
     public partial class App : Application
     {
+        public static int PUA { get; set; }
+        
         public App()
         {
             InitializeComponent();
-
+            PUA = 10;
             MainPage = new AppShell();
         }
 

@@ -14,18 +14,29 @@
         <TabBar>
 
 
-            <Tab Title="Strona Główna" Icon="home_outline.png">
+        <Tab Title="Strona Główna" Icon="main_page.png" x:Name="MainPageTab">
             <ShellContent ContentTemplate="{DataTemplate views:MainPage}" Route="MainPage"/>
         </Tab>
 
-        <Tab Title="Aktualności" Icon="news.png">
+        <Tab Title="Aktualności" Icon="info.png" x:Name="InfoTab">
             <ShellContent ContentTemplate="{DataTemplate views:Info}" Route="Info"/>
         </Tab>
 
-        <Tab Title="Konto" Icon="person_outline.png">
+        <Tab Title="Planszówki" Icon="boardgames.png" x:Name="BoardgamesTab">
+            <ShellContent ContentTemplate="{DataTemplate views:Boardgames}" Route="Boardgames"/>
+        </Tab>
+
+        <Tab Title="Konto" Icon="account.png" x:Name="AccountTab">
             <ShellContent ContentTemplate="{DataTemplate views:Account}" Route="Account"/>
         </Tab>
+
+        <Tab Title="O Aplikacji" Icon="about.png" x:Name="GuestAboutTab">
+            <ShellContent ContentTemplate="{DataTemplate views:GuestAbout}" Route="GuestAbout"/>
+        </Tab>
+
         
+
+
 
     </TabBar>
     

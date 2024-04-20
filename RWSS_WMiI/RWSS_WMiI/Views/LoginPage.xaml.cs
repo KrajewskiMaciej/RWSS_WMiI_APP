@@ -7,13 +7,14 @@ namespace RWSS_WMiI.Views
     public partial class LoginPage : ContentPage
     {
         public Command LoginCheckCommand { get; }
+        StartModel startModel = new StartModel();
 
         public LoginPage()
         {
             InitializeComponent();
             this.BindingContext = new LoginPageModel();
         }
-        
+
         void SaveLogin(object sender, EventArgs e)
         {
             login = ((Entry)sender).Text;
@@ -22,15 +23,21 @@ namespace RWSS_WMiI.Views
         {
             passwd = ((Entry)sender).Text;
         }
-        public string login="";
-        public string passwd="";
+        public string login = "";
+        public string passwd = "";
 
         private async void CheckLoginCommand(object obj, EventArgs e)
         {
-            if ((login == "Test") && (passwd == "zaq1@WSX"))
+            LoginPageModel viewModel = (LoginPageModel)this.BindingContext;
+            if (login == "Test")
             {
-                CheckLogin.Text = $"Logowanie udane";
-                await Shell.Current.GoToAsync(nameof(LoginPageModel.OnClickLogin));
+                if (passwd == "test")
+                {
+                    CheckLogin.Text = $"Logowanie udane";
+                    App.PUA = 1;
+                    startModel.UASV();
+                    await viewModel.OnClickLogin();
+                }
             }
             else
             {

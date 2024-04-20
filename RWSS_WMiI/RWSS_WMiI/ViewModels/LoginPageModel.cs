@@ -8,13 +8,13 @@ namespace RWSS_WMiI.ViewModels
 
         public LoginPageModel()
         {
-            LoginCommand = new Command(OnClickLogin);
+            LoginCommand = new Command(async () => await OnClickLogin());
+
         }
 
-        public async void OnClickLogin(object obj)
+        public async Task OnClickLogin()
         {
             await Shell.Current.GoToAsync($"//{nameof(MainPage)}");
         }
-
     }
 }

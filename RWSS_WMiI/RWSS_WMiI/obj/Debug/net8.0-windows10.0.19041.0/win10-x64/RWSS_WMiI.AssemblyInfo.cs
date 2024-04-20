@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RWSS_WMiI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+fd3153f201fbc6daa7b9951768429e027ae497a5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+2e7e461b78049ff8c67825014b7213bef3593340")]
 [assembly: System.Reflection.AssemblyProductAttribute("RWSS_WMiI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RWSS_WMiI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

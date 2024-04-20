@@ -38,7 +38,7 @@
                                Margin="5,0"
                                PlaceholderColor="Gray"
                                ClearButtonVisibility="WhileEditing"
-                               Completed="SaveLogin"
+                               TextChanged="SaveLogin"
                                ReturnType="Next"
                             >
                             <Entry.Keyboard>
@@ -60,7 +60,7 @@
                                Margin="5,0"
                                PlaceholderColor="Gray"
                                IsPassword="True"
-                               Completed="SavePassword"
+                               TextChanged="SavePassword"
                                
                                >
                             <Entry.Keyboard>

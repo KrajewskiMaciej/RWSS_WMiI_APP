@@ -101,6 +101,12 @@
 	  <MauiXaml Update="Views\Account.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Views\Boardgames.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\GuestAbout.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Views\Info.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

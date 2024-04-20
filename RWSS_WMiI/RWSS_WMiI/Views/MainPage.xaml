@@ -29,7 +29,7 @@
                 <Label
                      Text="Status: "
                      Style="{StaticResource SubHeadline}" FontSize="21" HorizontalOptions="Start"/>
-                <Label Style="{StaticResource SubHeadline}" FontSize="21" x:Name="ChckStat" Text="" HorizontalOptions="End"/>
+                <Label Style="{StaticResource SubHeadline}" FontSize="21" x:Name="ChckStat" Text="Biuro zamknięte" HorizontalOptions="End"/>
             </HorizontalStackLayout>
 
             <Button

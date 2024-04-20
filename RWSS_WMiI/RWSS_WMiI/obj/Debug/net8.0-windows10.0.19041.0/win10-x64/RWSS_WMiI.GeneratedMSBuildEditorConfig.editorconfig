@@ -48,6 +48,18 @@ build_metadata.AdditionalFiles.ManifestResourceName = RWSS_WMiI.Views.Account.xa
 build_metadata.AdditionalFiles.TargetPath = Views\Account.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\Account.xaml
 
+[D:/Repozytoria/Aplikacja RWSS WMiI/RWSS_WMiI/RWSS_WMiI/Views/Boardgames.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = RWSS_WMiI.Views.Boardgames.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Boardgames.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Boardgames.xaml
+
+[D:/Repozytoria/Aplikacja RWSS WMiI/RWSS_WMiI/RWSS_WMiI/Views/GuestAbout.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = RWSS_WMiI.Views.GuestAbout.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\GuestAbout.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\GuestAbout.xaml
+
 [D:/Repozytoria/Aplikacja RWSS WMiI/RWSS_WMiI/RWSS_WMiI/Views/Info.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = RWSS_WMiI.Views.Info.xaml

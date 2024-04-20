@@ -3,36 +3,48 @@
   "WorkspaceRootPath": "D:\\Repozytoria\\Aplikacja RWSS WMiI\\RWSS_WMiI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{83A75B01-8B13-4CEE-80F3-0E0DED105D69}|RWSS_WMiI\\RWSS_WMiI.csproj|d:\\repozytoria\\aplikacja rwss wmii\\rwss_wmii\\rwss_wmii\\views\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{83A75B01-8B13-4CEE-80F3-0E0DED105D69}|RWSS_WMiI\\RWSS_WMiI.csproj|solutionrelative:rwss_wmii\\views\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{83A75B01-8B13-4CEE-80F3-0E0DED105D69}|RWSS_WMiI\\RWSS_WMiI.csproj|d:\\repozytoria\\aplikacja rwss wmii\\rwss_wmii\\rwss_wmii\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83A75B01-8B13-4CEE-80F3-0E0DED105D69}|RWSS_WMiI\\RWSS_WMiI.csproj|solutionrelative:rwss_wmii\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{83A75B01-8B13-4CEE-80F3-0E0DED105D69}|RWSS_WMiI\\RWSS_WMiI.csproj|d:\\repozytoria\\aplikacja rwss wmii\\rwss_wmii\\rwss_wmii\\views\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{83A75B01-8B13-4CEE-80F3-0E0DED105D69}|RWSS_WMiI\\RWSS_WMiI.csproj|solutionrelative:rwss_wmii\\views\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{83A75B01-8B13-4CEE-80F3-0E0DED105D69}|RWSS_WMiI\\RWSS_WMiI.csproj|d:\\repozytoria\\aplikacja rwss wmii\\rwss_wmii\\rwss_wmii\\views\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83A75B01-8B13-4CEE-80F3-0E0DED105D69}|RWSS_WMiI\\RWSS_WMiI.csproj|solutionrelative:rwss_wmii\\views\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{83A75B01-8B13-4CEE-80F3-0E0DED105D69}|RWSS_WMiI\\RWSS_WMiI.csproj|d:\\repozytoria\\aplikacja rwss wmii\\rwss_wmii\\rwss_wmii\\viewmodels\\loginpagemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{83A75B01-8B13-4CEE-80F3-0E0DED105D69}|RWSS_WMiI\\RWSS_WMiI.csproj|solutionrelative:rwss_wmii\\viewmodels\\loginpagemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{83A75B01-8B13-4CEE-80F3-0E0DED105D69}|RWSS_WMiI\\RWSS_WMiI.csproj|d:\\repozytoria\\aplikacja rwss wmii\\rwss_wmii\\rwss_wmii\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83A75B01-8B13-4CEE-80F3-0E0DED105D69}|RWSS_WMiI\\RWSS_WMiI.csproj|solutionrelative:rwss_wmii\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{83A75B01-8B13-4CEE-80F3-0E0DED105D69}|RWSS_WMiI\\RWSS_WMiI.csproj|d:\\repozytoria\\aplikacja rwss wmii\\rwss_wmii\\rwss_wmii\\viewmodels\\accountmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{83A75B01-8B13-4CEE-80F3-0E0DED105D69}|RWSS_WMiI\\RWSS_WMiI.csproj|solutionrelative:rwss_wmii\\viewmodels\\accountmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{83A75B01-8B13-4CEE-80F3-0E0DED105D69}|RWSS_WMiI\\RWSS_WMiI.csproj|d:\\repozytoria\\aplikacja rwss wmii\\rwss_wmii\\rwss_wmii\\viewmodels\\startmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83A75B01-8B13-4CEE-80F3-0E0DED105D69}|RWSS_WMiI\\RWSS_WMiI.csproj|solutionrelative:rwss_wmii\\viewmodels\\startmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{83A75B01-8B13-4CEE-80F3-0E0DED105D69}|RWSS_WMiI\\RWSS_WMiI.csproj|d:\\repozytoria\\aplikacja rwss wmii\\rwss_wmii\\rwss_wmii\\views\\account.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{83A75B01-8B13-4CEE-80F3-0E0DED105D69}|RWSS_WMiI\\RWSS_WMiI.csproj|solutionrelative:rwss_wmii\\views\\account.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{83A75B01-8B13-4CEE-80F3-0E0DED105D69}|RWSS_WMiI\\RWSS_WMiI.csproj|d:\\repozytoria\\aplikacja rwss wmii\\rwss_wmii\\rwss_wmii\\views\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{83A75B01-8B13-4CEE-80F3-0E0DED105D69}|RWSS_WMiI\\RWSS_WMiI.csproj|solutionrelative:rwss_wmii\\views\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{83A75B01-8B13-4CEE-80F3-0E0DED105D69}|RWSS_WMiI\\RWSS_WMiI.csproj|d:\\repozytoria\\aplikacja rwss wmii\\rwss_wmii\\rwss_wmii\\viewmodels\\aboutmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{83A75B01-8B13-4CEE-80F3-0E0DED105D69}|RWSS_WMiI\\RWSS_WMiI.csproj|solutionrelative:rwss_wmii\\viewmodels\\aboutmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{83A75B01-8B13-4CEE-80F3-0E0DED105D69}|RWSS_WMiI\\RWSS_WMiI.csproj|d:\\repozytoria\\aplikacja rwss wmii\\rwss_wmii\\rwss_wmii\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{83A75B01-8B13-4CEE-80F3-0E0DED105D69}|RWSS_WMiI\\RWSS_WMiI.csproj|solutionrelative:rwss_wmii\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{83A75B01-8B13-4CEE-80F3-0E0DED105D69}|RWSS_WMiI\\RWSS_WMiI.csproj|d:\\repozytoria\\aplikacja rwss wmii\\rwss_wmii\\rwss_wmii\\views\\about.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{83A75B01-8B13-4CEE-80F3-0E0DED105D69}|RWSS_WMiI\\RWSS_WMiI.csproj|solutionrelative:rwss_wmii\\views\\about.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{83A75B01-8B13-4CEE-80F3-0E0DED105D69}|RWSS_WMiI\\RWSS_WMiI.csproj|d:\\repozytoria\\aplikacja rwss wmii\\rwss_wmii\\rwss_wmii\\views\\boardgames.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{83A75B01-8B13-4CEE-80F3-0E0DED105D69}|RWSS_WMiI\\RWSS_WMiI.csproj|solutionrelative:rwss_wmii\\views\\boardgames.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{83A75B01-8B13-4CEE-80F3-0E0DED105D69}|RWSS_WMiI\\RWSS_WMiI.csproj|d:\\repozytoria\\aplikacja rwss wmii\\rwss_wmii\\rwss_wmii\\views\\about.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{83A75B01-8B13-4CEE-80F3-0E0DED105D69}|RWSS_WMiI\\RWSS_WMiI.csproj|solutionrelative:rwss_wmii\\views\\about.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{83A75B01-8B13-4CEE-80F3-0E0DED105D69}|RWSS_WMiI\\RWSS_WMiI.csproj|d:\\repozytoria\\aplikacja rwss wmii\\rwss_wmii\\rwss_wmii\\views\\boardgames.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83A75B01-8B13-4CEE-80F3-0E0DED105D69}|RWSS_WMiI\\RWSS_WMiI.csproj|solutionrelative:rwss_wmii\\views\\boardgames.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83A75B01-8B13-4CEE-80F3-0E0DED105D69}|RWSS_WMiI\\RWSS_WMiI.csproj|d:\\repozytoria\\aplikacja rwss wmii\\rwss_wmii\\rwss_wmii\\views\\start.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83A75B01-8B13-4CEE-80F3-0E0DED105D69}|RWSS_WMiI\\RWSS_WMiI.csproj|solutionrelative:rwss_wmii\\views\\start.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83A75B01-8B13-4CEE-80F3-0E0DED105D69}|RWSS_WMiI\\RWSS_WMiI.csproj|d:\\repozytoria\\aplikacja rwss wmii\\rwss_wmii\\rwss_wmii\\views\\info.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{83A75B01-8B13-4CEE-80F3-0E0DED105D69}|RWSS_WMiI\\RWSS_WMiI.csproj|solutionrelative:rwss_wmii\\views\\info.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83A75B01-8B13-4CEE-80F3-0E0DED105D69}|RWSS_WMiI\\RWSS_WMiI.csproj|d:\\repozytoria\\aplikacja rwss wmii\\rwss_wmii\\rwss_wmii\\views\\info.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83A75B01-8B13-4CEE-80F3-0E0DED105D69}|RWSS_WMiI\\RWSS_WMiI.csproj|solutionrelative:rwss_wmii\\views\\info.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -51,99 +63,145 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "AccountModel.cs",
-              "DocumentMoniker": "D:\\Repozytoria\\Aplikacja RWSS WMiI\\RWSS_WMiI\\RWSS_WMiI\\ViewModels\\AccountModel.cs",
-              "RelativeDocumentMoniker": "RWSS_WMiI\\ViewModels\\AccountModel.cs",
-              "ToolTip": "D:\\Repozytoria\\Aplikacja RWSS WMiI\\RWSS_WMiI\\RWSS_WMiI\\ViewModels\\AccountModel.cs",
-              "RelativeToolTip": "RWSS_WMiI\\ViewModels\\AccountModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAHAAAA",
+              "Title": "StartModel.cs",
+              "DocumentMoniker": "D:\\Repozytoria\\Aplikacja RWSS WMiI\\RWSS_WMiI\\RWSS_WMiI\\ViewModels\\StartModel.cs",
+              "RelativeDocumentMoniker": "RWSS_WMiI\\ViewModels\\StartModel.cs",
+              "ToolTip": "D:\\Repozytoria\\Aplikacja RWSS WMiI\\RWSS_WMiI\\RWSS_WMiI\\ViewModels\\StartModel.cs",
+              "RelativeToolTip": "RWSS_WMiI\\ViewModels\\StartModel.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAowCIAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T09:16:52.383Z"
+              "WhenOpened": "2024-04-20T22:42:15.069Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Account.xaml.cs",
-              "DocumentMoniker": "D:\\Repozytoria\\Aplikacja RWSS WMiI\\RWSS_WMiI\\RWSS_WMiI\\Views\\Account.xaml.cs",
-              "RelativeDocumentMoniker": "RWSS_WMiI\\Views\\Account.xaml.cs",
-              "ToolTip": "D:\\Repozytoria\\Aplikacja RWSS WMiI\\RWSS_WMiI\\RWSS_WMiI\\Views\\Account.xaml.cs",
-              "RelativeToolTip": "RWSS_WMiI\\Views\\Account.xaml.cs",
+              "DocumentIndex": 8,
+              "Title": "Start.xaml.cs",
+              "DocumentMoniker": "D:\\Repozytoria\\Aplikacja RWSS WMiI\\RWSS_WMiI\\RWSS_WMiI\\Views\\Start.xaml.cs",
+              "RelativeDocumentMoniker": "RWSS_WMiI\\Views\\Start.xaml.cs",
+              "ToolTip": "D:\\Repozytoria\\Aplikacja RWSS WMiI\\RWSS_WMiI\\RWSS_WMiI\\Views\\Start.xaml.cs",
+              "RelativeToolTip": "RWSS_WMiI\\Views\\Start.xaml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T09:16:41.263Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "About.xaml",
-              "DocumentMoniker": "D:\\Repozytoria\\Aplikacja RWSS WMiI\\RWSS_WMiI\\RWSS_WMiI\\Views\\About.xaml",
-              "RelativeDocumentMoniker": "RWSS_WMiI\\Views\\About.xaml",
-              "ToolTip": "D:\\Repozytoria\\Aplikacja RWSS WMiI\\RWSS_WMiI\\RWSS_WMiI\\Views\\About.xaml",
-              "RelativeToolTip": "RWSS_WMiI\\Views\\About.xaml",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-17T11:14:09.69Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AboutModel.cs",
-              "DocumentMoniker": "D:\\Repozytoria\\Aplikacja RWSS WMiI\\RWSS_WMiI\\RWSS_WMiI\\ViewModels\\AboutModel.cs",
-              "RelativeDocumentMoniker": "RWSS_WMiI\\ViewModels\\AboutModel.cs",
-              "ToolTip": "D:\\Repozytoria\\Aplikacja RWSS WMiI\\RWSS_WMiI\\RWSS_WMiI\\ViewModels\\AboutModel.cs",
-              "RelativeToolTip": "RWSS_WMiI\\ViewModels\\AboutModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T11:14:03.24Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "About.xaml.cs",
-              "DocumentMoniker": "D:\\Repozytoria\\Aplikacja RWSS WMiI\\RWSS_WMiI\\RWSS_WMiI\\Views\\About.xaml.cs",
-              "RelativeDocumentMoniker": "RWSS_WMiI\\Views\\About.xaml.cs",
-              "ToolTip": "D:\\Repozytoria\\Aplikacja RWSS WMiI\\RWSS_WMiI\\RWSS_WMiI\\Views\\About.xaml.cs",
-              "RelativeToolTip": "RWSS_WMiI\\Views\\About.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T11:09:26.489Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "LoginPageModel.cs",
-              "DocumentMoniker": "D:\\Repozytoria\\Aplikacja RWSS WMiI\\RWSS_WMiI\\RWSS_WMiI\\ViewModels\\LoginPageModel.cs",
-              "RelativeDocumentMoniker": "RWSS_WMiI\\ViewModels\\LoginPageModel.cs",
-              "ToolTip": "D:\\Repozytoria\\Aplikacja RWSS WMiI\\RWSS_WMiI\\RWSS_WMiI\\ViewModels\\LoginPageModel.cs",
-              "RelativeToolTip": "RWSS_WMiI\\ViewModels\\LoginPageModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T11:07:49.77Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "LoginPage.xaml.cs",
-              "DocumentMoniker": "D:\\Repozytoria\\Aplikacja RWSS WMiI\\RWSS_WMiI\\RWSS_WMiI\\Views\\LoginPage.xaml.cs",
-              "RelativeDocumentMoniker": "RWSS_WMiI\\Views\\LoginPage.xaml.cs",
-              "ToolTip": "D:\\Repozytoria\\Aplikacja RWSS WMiI\\RWSS_WMiI\\RWSS_WMiI\\Views\\LoginPage.xaml.cs",
-              "RelativeToolTip": "RWSS_WMiI\\Views\\LoginPage.xaml.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAqwA0AAAA3AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-15T08:45:12.59Z",
+              "WhenOpened": "2024-04-20T22:42:12.552Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "LoginPage.xaml",
-              "DocumentMoniker": "D:\\Repozytoria\\Aplikacja RWSS WMiI\\RWSS_WMiI\\RWSS_WMiI\\Views\\LoginPage.xaml",
-              "RelativeDocumentMoniker": "RWSS_WMiI\\Views\\LoginPage.xaml",
-              "ToolTip": "D:\\Repozytoria\\Aplikacja RWSS WMiI\\RWSS_WMiI\\RWSS_WMiI\\Views\\LoginPage.xaml",
-              "RelativeToolTip": "RWSS_WMiI\\Views\\LoginPage.xaml",
-              "ViewState": "AQIAADsAAAAAAAAAAAAcwCgAAAAfAAAA",
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "D:\\Repozytoria\\Aplikacja RWSS WMiI\\RWSS_WMiI\\RWSS_WMiI\\Views\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "RWSS_WMiI\\Views\\MainPage.xaml.cs",
+              "ToolTip": "D:\\Repozytoria\\Aplikacja RWSS WMiI\\RWSS_WMiI\\RWSS_WMiI\\Views\\MainPage.xaml.cs",
+              "RelativeToolTip": "RWSS_WMiI\\Views\\MainPage.xaml.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAQwBwAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T22:41:43.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "D:\\Repozytoria\\Aplikacja RWSS WMiI\\RWSS_WMiI\\RWSS_WMiI\\Views\\MainPage.xaml",
+              "RelativeDocumentMoniker": "RWSS_WMiI\\Views\\MainPage.xaml",
+              "ToolTip": "D:\\Repozytoria\\Aplikacja RWSS WMiI\\RWSS_WMiI\\RWSS_WMiI\\Views\\MainPage.xaml",
+              "RelativeToolTip": "RWSS_WMiI\\Views\\MainPage.xaml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAB8AAABxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-10T16:42:30.141Z"
+              "WhenOpened": "2024-04-20T22:41:42.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Boardgames.xaml.cs",
+              "DocumentMoniker": "D:\\Repozytoria\\Aplikacja RWSS WMiI\\RWSS_WMiI\\RWSS_WMiI\\Views\\Boardgames.xaml.cs",
+              "RelativeDocumentMoniker": "RWSS_WMiI\\Views\\Boardgames.xaml.cs",
+              "ToolTip": "D:\\Repozytoria\\Aplikacja RWSS WMiI\\RWSS_WMiI\\RWSS_WMiI\\Views\\Boardgames.xaml.cs",
+              "RelativeToolTip": "RWSS_WMiI\\Views\\Boardgames.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T22:37:26.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Info.xaml.cs",
+              "DocumentMoniker": "D:\\Repozytoria\\Aplikacja RWSS WMiI\\RWSS_WMiI\\RWSS_WMiI\\Views\\Info.xaml.cs",
+              "RelativeDocumentMoniker": "RWSS_WMiI\\Views\\Info.xaml.cs",
+              "ToolTip": "D:\\Repozytoria\\Aplikacja RWSS WMiI\\RWSS_WMiI\\RWSS_WMiI\\Views\\Info.xaml.cs",
+              "RelativeToolTip": "RWSS_WMiI\\Views\\Info.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T22:37:00.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Info.xaml",
+              "DocumentMoniker": "D:\\Repozytoria\\Aplikacja RWSS WMiI\\RWSS_WMiI\\RWSS_WMiI\\Views\\Info.xaml",
+              "RelativeDocumentMoniker": "RWSS_WMiI\\Views\\Info.xaml",
+              "ToolTip": "D:\\Repozytoria\\Aplikacja RWSS WMiI\\RWSS_WMiI\\RWSS_WMiI\\Views\\Info.xaml",
+              "RelativeToolTip": "RWSS_WMiI\\Views\\Info.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-20T22:36:59.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Boardgames.xaml",
+              "DocumentMoniker": "D:\\Repozytoria\\Aplikacja RWSS WMiI\\RWSS_WMiI\\RWSS_WMiI\\Views\\Boardgames.xaml",
+              "RelativeDocumentMoniker": "RWSS_WMiI\\Views\\Boardgames.xaml",
+              "ToolTip": "D:\\Repozytoria\\Aplikacja RWSS WMiI\\RWSS_WMiI\\RWSS_WMiI\\Views\\Boardgames.xaml",
+              "RelativeToolTip": "RWSS_WMiI\\Views\\Boardgames.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-20T22:36:35.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "D:\\Repozytoria\\Aplikacja RWSS WMiI\\RWSS_WMiI\\RWSS_WMiI\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "RWSS_WMiI\\AppShell.xaml.cs",
+              "ToolTip": "D:\\Repozytoria\\Aplikacja RWSS WMiI\\RWSS_WMiI\\RWSS_WMiI\\AppShell.xaml.cs",
+              "RelativeToolTip": "RWSS_WMiI\\AppShell.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T21:24:57.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "D:\\Repozytoria\\Aplikacja RWSS WMiI\\RWSS_WMiI\\RWSS_WMiI\\App.xaml.cs",
+              "RelativeDocumentMoniker": "RWSS_WMiI\\App.xaml.cs",
+              "ToolTip": "D:\\Repozytoria\\Aplikacja RWSS WMiI\\RWSS_WMiI\\RWSS_WMiI\\App.xaml.cs",
+              "RelativeToolTip": "RWSS_WMiI\\App.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T22:51:46.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "D:\\Repozytoria\\Aplikacja RWSS WMiI\\RWSS_WMiI\\RWSS_WMiI\\AppShell.xaml",
+              "RelativeDocumentMoniker": "RWSS_WMiI\\AppShell.xaml",
+              "ToolTip": "D:\\Repozytoria\\Aplikacja RWSS WMiI\\RWSS_WMiI\\RWSS_WMiI\\AppShell.xaml",
+              "RelativeToolTip": "RWSS_WMiI\\AppShell.xaml",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAmwBoAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-20T21:19:41.088Z",
+              "EditorCaption": ""
             }
           ]
         }

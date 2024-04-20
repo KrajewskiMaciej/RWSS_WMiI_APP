@@ -1067,10 +1067,7 @@ D:\Repozytoria\Aplikacja RWSS WMiI\RWSS_WMiI\RWSS_WMiI\obj\Debug\net8.0-android3
 D:\Repozytoria\Aplikacja RWSS WMiI\RWSS_WMiI\RWSS_WMiI\obj\Debug\net8.0-android34.0\mauifont.stamp
 D:\Repozytoria\Aplikacja RWSS WMiI\RWSS_WMiI\RWSS_WMiI\obj\Debug\net8.0-android34.0\resizetizer\f\OpenSans-Regular.ttf
 D:\Repozytoria\Aplikacja RWSS WMiI\RWSS_WMiI\RWSS_WMiI\obj\Debug\net8.0-android34.0\resizetizer\f\OpenSans-Semibold.ttf
-D:\Repozytoria\Aplikacja RWSS WMiI\RWSS_WMiI\RWSS_WMiI\obj\Debug\net8.0-android34.0\resizetizer\r\drawable\home_outline.png
-D:\Repozytoria\Aplikacja RWSS WMiI\RWSS_WMiI\RWSS_WMiI\obj\Debug\net8.0-android34.0\resizetizer\r\drawable\information_circle_outline.png
 D:\Repozytoria\Aplikacja RWSS WMiI\RWSS_WMiI\RWSS_WMiI\obj\Debug\net8.0-android34.0\resizetizer\r\drawable\logo_rwss.png
-D:\Repozytoria\Aplikacja RWSS WMiI\RWSS_WMiI\RWSS_WMiI\obj\Debug\net8.0-android34.0\resizetizer\r\drawable\person_outline.png
 D:\Repozytoria\Aplikacja RWSS WMiI\RWSS_WMiI\RWSS_WMiI\obj\Debug\net8.0-android34.0\resizetizer\r\mipmap-anydpi-v26\appicon.xml
 D:\Repozytoria\Aplikacja RWSS WMiI\RWSS_WMiI\RWSS_WMiI\obj\Debug\net8.0-android34.0\resizetizer\r\mipmap-anydpi-v26\appicon_round.xml
 D:\Repozytoria\Aplikacja RWSS WMiI\RWSS_WMiI\RWSS_WMiI\obj\Debug\net8.0-android34.0\resizetizer\r\mipmap-hdpi\appicon.png
@@ -2084,5 +2081,9 @@ D:\Repozytoria\Aplikacja RWSS WMiI\RWSS_WMiI\RWSS_WMiI\obj\Debug\net8.0-android3
 D:\Repozytoria\Aplikacja RWSS WMiI\RWSS_WMiI\RWSS_WMiI\obj\Debug\net8.0-android34.0\resizetizer\sp\drawable-xxhdpi\splashrw.png
 D:\Repozytoria\Aplikacja RWSS WMiI\RWSS_WMiI\RWSS_WMiI\obj\Debug\net8.0-android34.0\resizetizer\sp\drawable-xxxhdpi\splashrw.png
 D:\Repozytoria\Aplikacja RWSS WMiI\RWSS_WMiI\RWSS_WMiI\obj\Debug\net8.0-android34.0\resizetizer\r\drawable\dotnet_bot.png
-D:\Repozytoria\Aplikacja RWSS WMiI\RWSS_WMiI\RWSS_WMiI\obj\Debug\net8.0-android34.0\resizetizer\r\drawable\news.png
 D:\Repozytoria\Aplikacja RWSS WMiI\RWSS_WMiI\RWSS_WMiI\obj\Debug\net8.0-android34.0\android\assets\System.Private.CoreLib.dll
+D:\Repozytoria\Aplikacja RWSS WMiI\RWSS_WMiI\RWSS_WMiI\obj\Debug\net8.0-android34.0\resizetizer\r\drawable\about.png
+D:\Repozytoria\Aplikacja RWSS WMiI\RWSS_WMiI\RWSS_WMiI\obj\Debug\net8.0-android34.0\resizetizer\r\drawable\account.png
+D:\Repozytoria\Aplikacja RWSS WMiI\RWSS_WMiI\RWSS_WMiI\obj\Debug\net8.0-android34.0\resizetizer\r\drawable\info.png
+D:\Repozytoria\Aplikacja RWSS WMiI\RWSS_WMiI\RWSS_WMiI\obj\Debug\net8.0-android34.0\resizetizer\r\drawable\main_page.png
+D:\Repozytoria\Aplikacja RWSS WMiI\RWSS_WMiI\RWSS_WMiI\obj\Debug\net8.0-android34.0\resizetizer\r\drawable\boardgames.png
