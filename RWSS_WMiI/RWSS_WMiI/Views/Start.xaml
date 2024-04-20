@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RWSS_WMiI.Views.Start"
+             Shell.FlyoutItemIsVisible="False"
+             Shell.TabBarIsVisible="False"
+             Shell.FlyoutBehavior="Disabled">
+
+    <Grid>
+
+        <Grid Padding="5,30,5,0">
+
+            <StackLayout VerticalOptions="Start" Spacing="30">
+
+
+                <Label FontFamily="OpenSans-Semibold" Text="RWSS WMiI APP" Style="{StaticResource Headline}"/>
+
+                <Image
+                Source="logo_rwss.png"
+                HeightRequest="100"/>
+
+                <Line Stroke="{StaticResource Black}" StrokeThickness="1" X1="0" X2="512"/>
+
+            </StackLayout>
+
+            <StackLayout
+                Margin="30"
+                Spacing="15"
+                VerticalOptions="Center">
+
+                <Button
+                Text="Jestem Studentem WMiI"
+                HorizontalOptions="Fill"
+                Command="{Binding MainPageCommand}"/>
+
+                <Button
+                Text="Jestem członkiem RWSS WMiI" 
+                HorizontalOptions="Fill"
+                Command="{Binding LoginPageCommand}"
+                />
+
+            </StackLayout>
+
+        </Grid>
+
+    </Grid>
+
+</ContentPage>

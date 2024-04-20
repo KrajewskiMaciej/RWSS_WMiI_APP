@@ -1,43 +1,60 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="RWSS_WMiI.Views.About">
+             x:Class="RWSS_WMiI.Views.About"
+             Shell.FlyoutItemIsVisible="False"
+             Shell.TabBarIsVisible="False"
+             Shell.FlyoutBehavior="Disabled">
 
-    <ScrollView>
-        <VerticalStackLayout
-            Padding="30,30"
-            Spacing="15">
-
-            <Label Text="O aplikacji" Style="{StaticResource Headline}"/>
+    <Grid>
+        <StackLayout Spacing="30" Padding="5,30,5,0">
+            <Label FontFamily="OpenSans-Semibold" Text="O aplikacji" Style="{StaticResource Headline}"/>
 
             <Image
                 Source="logo_rwss.png"
-                HeightRequest="150"/>
-            
-            <Label
-                Text="Aplikcaja służy do: &#10; - ustalenia położenia klucza do biura &#10; - posiadania klucza przez daną osobę &#10; - ustalenia czy ktoś będzie potrzebował klucza w danym dniu "
+                HeightRequest="100"/>
+
+            <Line Stroke="{StaticResource Black}" StrokeThickness="1" X1="0" X2="512"/>
+
+            <StackLayout
+                Margin="20"
+                >
+
+                
+
+                <Label
+                Text="Aplikcaja służy do: &#10;
+- ustalenia położenia klucza do biura &#10;
+- posiadania klucza przez daną osobę &#10;
+- ustalenia czy ktoś będzie potrzebował klucza w danym dniu &#10;
+- informowaniu o nadchodzącyh wydarzeniach "
+                
                 FontSize="20"
                 HorizontalTextAlignment="Center"
                 />
 
-            <Label
+                <Label
                 Text="Możliwe rozbudowanie w przyszłości o dodatkowe funkcje &#10; &#10; "
                 FontSize="15"
                 HorizontalTextAlignment="Center"
                 />
 
-            <Label
+                <Label Padding="0,0,0,30"
                 Text=" Autorzy: &#10; Maciej Krajewski, Jakub Baliński"
                 FontSize="12"
                 HorizontalTextAlignment="Center"
+                
                 />
-            <Label
-                Text="Wykonane na zlecenie RWSS WMiI "
+                
+                <Label
+                Text="Wykonane na zlecenie RWSS WMiI UWM w Olsztynie"
                 FontSize="8"
                 HorizontalTextAlignment="Center"
                 />
-            
-        </VerticalStackLayout>
-    </ScrollView>
 
+                <Button VerticalOptions="End" Margin="0,15" Text="Wróć na Stronę Główną" FontFamily="OpenSans-Semibold" Command="{Binding MainPageCommand}" />
+
+            </StackLayout>
+        </StackLayout>
+    </Grid>
 </ContentPage>

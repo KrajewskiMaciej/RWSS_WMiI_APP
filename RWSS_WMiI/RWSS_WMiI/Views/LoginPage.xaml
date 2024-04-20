@@ -4,42 +4,89 @@
              x:Class="RWSS_WMiI.Views.LoginPage"
              Shell.FlyoutItemIsVisible="False"
              Shell.TabBarIsVisible="False"
-             Shell.FlyoutBehavior="Disabled"
-             >
+             Shell.FlyoutBehavior="Disabled">
 
     <Grid>
-        <StackLayout 
-            Margin="20">
 
+        <StackLayout Spacing="30" Padding="5,30,5,0">
             <Label FontFamily="OpenSans-Semibold" Text="RWSS WMiI App" Style="{StaticResource Headline}"/>
 
-            <Image Source="logo_rwss.png" HeightRequest="75" Margin="50"/>
-            
-            <StackLayout Padding="25,0,25,70">
-                <Label Text="Logowanie" FontSize="30" Style="{StaticResource SubHeadline}"/>
-            </StackLayout>
+            <Image 
+                Source="logo_rwss.png"
+                HeightRequest="100"/>
 
-            <StackLayout>
-                <Label TextColor="{StaticResource Secondary}" FontSize="16" Text="Użytkownik"/>
-                <Grid Margin="0,5">
-                    <Frame Opacity="0.3" BackgroundColor="White" CornerRadius="5"/>
-                    <Entry BackgroundColor="Transparent" Placeholder="Nazwa" TextColor="White" Margin="5,0" PlaceholderColor="Gray"/>
-                </Grid>
+            <Line Stroke="{StaticResource Black}" StrokeThickness="1" X1="0" X2="512"/>
 
-                <Label TextColor="{StaticResource Secondary}" FontSize="16" Text="Hasło"/>
-                <Grid Margin="0,5">
-                    <Frame Opacity="0.3" BackgroundColor="White" CornerRadius="5"/>
-                    <Entry BackgroundColor="Transparent" Placeholder="Hasło" TextColor="White" Margin="5,0" PlaceholderColor="Gray" IsPassword="True"/>
-                </Grid>
-            </StackLayout>
-            
-            <Button Margin="0,15" BackgroundColor="{StaticResource Tertiary}" Text="Zaloguj" TextColor="{StaticResource Black}" FontFamily="OpenSans-Semibold" Command="{Binding LoginCommand}" />
+            <StackLayout 
+            Margin="30,0,30,0"
+            Spacing="15">
 
-            <StackLayout VerticalOptions="FillAndExpand" Orientation="Horizontal">
-                <Label Text="Przypomnij Hasło" VerticalOptions="EndAndExpand"/>
                 
+
+                <StackLayout Padding="25,0,25,25">
+                    <Label Text="Logowanie" FontSize="30" Style="{StaticResource SubHeadline}"/>
+                </StackLayout>
+
+                <StackLayout>
+                    
+                    <Label FontSize="18" Text="Użytkownik"/>
+                    <Grid Margin="0,5">
+                        <Frame Opacity="0.3" BackgroundColor="Gray" CornerRadius="5"/>
+                        <Entry BackgroundColor="Transparent"
+                               Placeholder="Nazwa"
+                               TextColor="White"
+                               Margin="5,0"
+                               PlaceholderColor="Gray"
+                               ClearButtonVisibility="WhileEditing"
+                               Completed="SaveLogin"
+                               ReturnType="Next"
+                            >
+                            <Entry.Keyboard>
+                                <Keyboard x:FactoryMethod="Create">
+                                    <x:Arguments>
+                                        <KeyboardFlags>CapitalizeNone</KeyboardFlags>
+                                    </x:Arguments>
+                                </Keyboard>
+                            </Entry.Keyboard>
+                        </Entry>
+                    </Grid>
+
+                    <Label FontSize="18" Text="Hasło"/>
+                    <Grid Margin="0,5">
+                        <Frame Opacity="0.3" BackgroundColor="Gray" CornerRadius="5"/>
+                        <Entry BackgroundColor="Transparent"
+                               Placeholder="Hasło"
+                               TextColor="White"
+                               Margin="5,0"
+                               PlaceholderColor="Gray"
+                               IsPassword="True"
+                               Completed="SavePassword"
+                               
+                               >
+                            <Entry.Keyboard>
+                                <Keyboard x:FactoryMethod="Create">
+                                    <x:Arguments>
+                                        <KeyboardFlags>CapitalizeNone</KeyboardFlags>
+                                    </x:Arguments>
+                                </Keyboard>
+                            </Entry.Keyboard>
+                        </Entry>
+                    </Grid>
+                    
+                    <StackLayout VerticalOptions="FillAndExpand" Orientation="Horizontal">
+                        <Label Style="{StaticResource SubHeadline}" FontSize="10" x:Name="CheckLogin" TextColor="Red"/>
+                    </StackLayout>
+                    
+                </StackLayout>
+
+                <Button Margin="0,15" Text="Zaloguj" FontFamily="OpenSans-Semibold" Clicked="CheckLoginCommand" />
+
+                <StackLayout VerticalOptions="FillAndExpand" Orientation="Horizontal">
+                    <Label Text="Przypomnij Hasło" VerticalOptions="EndAndExpand"/>
+
+                </StackLayout>
+
             </StackLayout>
-            
         </StackLayout>
     </Grid>
     

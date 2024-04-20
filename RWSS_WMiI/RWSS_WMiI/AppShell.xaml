@@ -7,7 +7,9 @@
     xmlns:views="clr-namespace:RWSS_WMiI.Views"
     Title="RWSS_WMiI">
 
+        <ShellContent ContentTemplate="{DataTemplate views:Start}" Route="Start"/>
         <ShellContent ContentTemplate="{DataTemplate views:LoginPage}" Route="LoginPage"/>
+        <ShellContent ContentTemplate="{DataTemplate views:About}" Route="About"/>
 
         <TabBar>
 
@@ -16,14 +18,15 @@
             <ShellContent ContentTemplate="{DataTemplate views:MainPage}" Route="MainPage"/>
         </Tab>
 
-        <Tab Title="Konto" Icon="person_outline.png">
-            <ShellContent ContentTemplate="{DataTemplate views:Account}" />
+        <Tab Title="Aktualności" Icon="news.png">
+            <ShellContent ContentTemplate="{DataTemplate views:Info}" Route="Info"/>
         </Tab>
 
-        <Tab Title="O Aplikacji" Icon="information_circle_outline.png">
-            <ShellContent ContentTemplate="{DataTemplate views:About}"/>
+        <Tab Title="Konto" Icon="person_outline.png">
+            <ShellContent ContentTemplate="{DataTemplate views:Account}" Route="Account"/>
         </Tab>
         
+
     </TabBar>
     
 

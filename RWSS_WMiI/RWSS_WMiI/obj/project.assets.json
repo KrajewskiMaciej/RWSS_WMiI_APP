@@ -32936,11 +32936,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\makro\\source\\repos\\RWSS_WMiI\\RWSS_WMiI\\RWSS_WMiI.csproj",
+      "projectUniqueName": "D:\\Repozytoria\\Aplikacja RWSS WMiI\\RWSS_WMiI\\RWSS_WMiI\\RWSS_WMiI.csproj",
       "projectName": "RWSS_WMiI",
-      "projectPath": "C:\\Users\\makro\\source\\repos\\RWSS_WMiI\\RWSS_WMiI\\RWSS_WMiI.csproj",
+      "projectPath": "D:\\Repozytoria\\Aplikacja RWSS WMiI\\RWSS_WMiI\\RWSS_WMiI\\RWSS_WMiI.csproj",
       "packagesPath": "C:\\Users\\makro\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\makro\\source\\repos\\RWSS_WMiI\\RWSS_WMiI\\obj\\",
+      "outputPath": "D:\\Repozytoria\\Aplikacja RWSS WMiI\\RWSS_WMiI\\RWSS_WMiI\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [

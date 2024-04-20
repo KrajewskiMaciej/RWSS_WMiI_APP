@@ -4,53 +4,57 @@
              x:Class="RWSS_WMiI.Views.MainPage">
 
     <ScrollView>
-        <VerticalStackLayout
-            Padding="30,30"
-            Spacing="15">
-
-            <Label Text="Strona Główna" Style="{StaticResource Headline}"/>
+        
+        <Grid Padding="5,30,5,0">
             
-            <Image
+            <StackLayout VerticalOptions="Start" Spacing="30">
+                
+
+                <Label FontFamily="OpenSans-Semibold" Text="Strona Główna" Style="{StaticResource Headline}"/>
+
+                <Image
                 Source="logo_rwss.png"
                 HeightRequest="100"/>
 
-            <Label
-                Text="Status Klucza:"
-                Style="{StaticResource SubHeadline}" FontSize="28"/>
+                <Line Stroke="{StaticResource Black}" StrokeThickness="1" X1="0" X2="512"/>
+                
+            </StackLayout>
 
-            <Grid Margin="5,5">
-                <Frame Opacity="0.3" BackgroundColor="White" CornerRadius="25"/>
-                <Label Style="{StaticResource SubHeadline}" FontSize="20" x:Name="ChckStat" Text="Aktualny Status" VerticalTextAlignment="Center"/>
-            </Grid>
+            <StackLayout
+                Margin="30"
+                Spacing="15"
+                VerticalOptions="Center">
 
-
-
+                <HorizontalStackLayout Padding="0,10">
+                <Label
+                     Text="Status: "
+                     Style="{StaticResource SubHeadline}" FontSize="21" HorizontalOptions="Start"/>
+                <Label Style="{StaticResource SubHeadline}" FontSize="21" x:Name="ChckStat" Text="" HorizontalOptions="End"/>
+            </HorizontalStackLayout>
 
             <Button
-                Text="Sprawdź status"
+                Text="Aktualizuj status Klucza"
                 Clicked="KeyStatus"
                 HorizontalOptions="Fill" />
-            
-            
-            
-            
-            
-            
-            
-            
-            
 
             <Button
                 x:Name="CounterBtn1"
                 Text="Click me" 
                 SemanticProperties.Hint="Counts the number of times you click"
                 Clicked="OnCounterClicked"
-                HorizontalOptions="Fill" />
+                HorizontalOptions="Fill"
+                />
 
             <Label Style="{StaticResource SubHeadline}" FontSize="1" x:Name="Activity" VerticalTextAlignment="Center"/>
 
-        </VerticalStackLayout>
-        
+            <Line Stroke="{StaticResource Primary}" StrokeThickness="3" X1="0" X2="512"/>
+
+            <Label Text="Najbliższe wydarzenie:" Style="{StaticResource SubHeadline}" FontSize="21" HorizontalOptions="Start"/>
+
+        </StackLayout>
+            
+        </Grid>
+
     </ScrollView>
 
 </ContentPage>

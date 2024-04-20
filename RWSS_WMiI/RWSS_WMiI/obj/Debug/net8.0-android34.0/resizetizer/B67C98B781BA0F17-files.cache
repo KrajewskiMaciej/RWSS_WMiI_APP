@@ -1,12 +1,9 @@
-﻿obj\Debug\net8.0-android34.0\resizetizer\r\drawable\home_outline.png
+﻿obj\Debug\net8.0-android34.0\resizetizer\r\drawable\dotnet_bot.png
+obj\Debug\net8.0-android34.0\resizetizer\r\drawable\home_outline.png
 obj\Debug\net8.0-android34.0\resizetizer\r\drawable\information_circle_outline.png
 obj\Debug\net8.0-android34.0\resizetizer\r\drawable\logo_rwss.png
+obj\Debug\net8.0-android34.0\resizetizer\r\drawable\news.png
 obj\Debug\net8.0-android34.0\resizetizer\r\drawable\person_outline.png
-obj\Debug\net8.0-android34.0\resizetizer\r\drawable-hdpi\dotnet_bot.png
-obj\Debug\net8.0-android34.0\resizetizer\r\drawable-mdpi\dotnet_bot.png
-obj\Debug\net8.0-android34.0\resizetizer\r\drawable-xhdpi\dotnet_bot.png
-obj\Debug\net8.0-android34.0\resizetizer\r\drawable-xxhdpi\dotnet_bot.png
-obj\Debug\net8.0-android34.0\resizetizer\r\drawable-xxxhdpi\dotnet_bot.png
 obj\Debug\net8.0-android34.0\resizetizer\r\mipmap-anydpi-v26\appicon.xml
 obj\Debug\net8.0-android34.0\resizetizer\r\mipmap-anydpi-v26\appicon_round.xml
 obj\Debug\net8.0-android34.0\resizetizer\r\mipmap-hdpi\appicon.png

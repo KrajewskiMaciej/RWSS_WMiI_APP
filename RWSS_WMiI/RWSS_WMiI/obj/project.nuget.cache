@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ul7y+pB839JIfBJZAfGoFwD0C2MwZDo8i1hPI5UhESNfs3b2Nib0g31ltzjHcIn6+2uDzRK6qXujSNeGjWlDOg==",
+  "dgSpecHash": "htogQVZbCsaCUKyOYNs9wRquNuelU4gIsInp0W92tvUbOVsEhPOFvqOCunn/1NfBb+X+dEPl63/kxenBbyYzhw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\makro\\source\\repos\\RWSS_WMiI\\RWSS_WMiI\\RWSS_WMiI.csproj",
+  "projectFilePath": "D:\\Repozytoria\\Aplikacja RWSS WMiI\\RWSS_WMiI\\RWSS_WMiI\\RWSS_WMiI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\makro\\.nuget\\packages\\googlegson\\2.10.1.4\\googlegson.2.10.1.4.nupkg.sha512",
     "C:\\Users\\makro\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",
