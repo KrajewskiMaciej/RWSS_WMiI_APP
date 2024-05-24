@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RWSS_WMiI.Views.Settings"
+             Title="Ustawienia">
+
+    <StackLayout>
+        <Grid Padding="5,30,5,0">
+            <ScrollView>
+
+                <ListView RowHeight="60"  x:Name="SettingsVisibility" ItemSelected="OnSettingSelected">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <Grid>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition />
+                                        <RowDefinition />
+                                    </Grid.RowDefinitions>
+
+                                    <Grid Grid.Row="0">
+                                        <Label Padding="5,0,0,5" Text="{Binding Name}" Style="{StaticResource SubHeadline}" VerticalOptions="Start" HorizontalOptions="Start" FontSize="20"/>
+                                    </Grid>
+
+                                    <Grid Grid.Row="1">
+                                        <Label Text="{Binding Details}" VerticalOptions="Start" HorizontalOptions="Start" Padding="5,0,0,0" FontSize="13"/>
+                                    </Grid>
+
+                                </Grid>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+
+            </ScrollView>
+
+        </Grid>
+    </StackLayout>
+
+</ContentPage>

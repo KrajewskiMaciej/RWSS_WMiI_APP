@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RWSS_WMiI.Views.EditAccount"
+             Shell.TabBarIsVisible="True"
+             Title="Edytuj Konto">
+
+    <StackLayout>
+        <Grid Padding="5,30,5,0">
+
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition Height="450"/>
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+
+            <Grid Grid.Row="1">
+                <ScrollView>
+                    <StackLayout Margin="30,0,30,0" Spacing="1">
+
+                        <Grid HeightRequest="200">
+                            <BoxView Color="{StaticResource Gray950}" CornerRadius="100" HeightRequest="155" WidthRequest="155"/>
+                            <Frame BorderColor="Transparent" CornerRadius="100" HeightRequest="150" WidthRequest="150" IsClippedToBounds="True">
+                                <Image Source="{Binding ImageUrl, Converter={StaticResource ImageConverter}}" Aspect="AspectFill" Margin="5" HeightRequest="150" WidthRequest="150"/>
+                            </Frame>
+                            <Label Text="Zdjęcie Profilowe" HorizontalOptions="Center" FontSize="20"/>
+                            <Label Text="(Na razie nie działa)" HorizontalOptions="Center" FontSize="16" VerticalOptions="End"/>
+                        </Grid>
+
+
+                        <Label FontSize="18">
+                            <Label.FormattedText>
+                                <FormattedString>
+                                    <Span Text="Imię" />
+                                    <Span Text=" *" TextColor="Red" />
+                                </FormattedString>
+                            </Label.FormattedText>
+                        </Label>
+                        <Grid Margin="0,5">
+                            <Frame Opacity="0.3" BackgroundColor="Gray" CornerRadius="5"/>
+                            <Entry BackgroundColor="Transparent" Placeholder="Imię" Margin="5,0" PlaceholderColor="Gray" TextChanged="SaveImie" ClearButtonVisibility="WhileEditing" ReturnType="Next" x:Name="SavedImie" >
+                            </Entry>
+                        </Grid>
+
+                        <Label FontSize="18">
+                            <Label.FormattedText>
+                                <FormattedString>
+                                    <Span Text="Nazwisko" />
+                                    <Span Text=" *" TextColor="Red" />
+                                </FormattedString>
+                            </Label.FormattedText>
+                        </Label>
+                        <Grid Margin="0,5">
+                            <Frame Opacity="0.3" BackgroundColor="Gray" CornerRadius="5"/>
+                            <Entry BackgroundColor="Transparent" Placeholder="Nazwisko" Margin="5,0" PlaceholderColor="Gray" TextChanged="SaveNazwisko" ClearButtonVisibility="WhileEditing" ReturnType="Next" x:Name="SavedNazwisko">
+                            </Entry>
+                        </Grid>
+
+                        <Label FontSize="18">
+                            <Label.FormattedText>
+                                <FormattedString>
+                                    <Span Text="Pseudonim" />
+                                </FormattedString>
+                            </Label.FormattedText>
+                        </Label>
+                        <Grid Margin="0,5">
+                            <Frame Opacity="0.3" BackgroundColor="Gray" CornerRadius="5"/>
+                            <Entry BackgroundColor="Transparent" Placeholder="Pseudonim" Margin="5,0" PlaceholderColor="Gray" TextChanged="SavePseudonim" ClearButtonVisibility="WhileEditing" ReturnType="Next" x:Name="SavedPseudonim" >
+                            </Entry>
+                        </Grid>
+
+                        <Label FontSize="18">
+                            <Label.FormattedText>
+                                <FormattedString>
+                                    <Span Text="Link Do Messenger" />
+                                </FormattedString>
+                            </Label.FormattedText>
+                        </Label>
+                        <Grid Margin="0,5">
+                            <Frame Opacity="0.3" BackgroundColor="Gray" CornerRadius="5"/>
+                            <Entry BackgroundColor="Transparent" Placeholder="m.me/rwss.wmii" Margin="5,0" PlaceholderColor="Gray" TextChanged="SaveLink" ClearButtonVisibility="WhileEditing" ReturnType="Next" x:Name="SavedLink" >
+                            </Entry>
+                        </Grid>
+
+                        <Label FontSize="18">
+                            <Label.FormattedText>
+                                <FormattedString>
+                                    <Span Text="Opis Użytkownika" />
+                                </FormattedString>
+                            </Label.FormattedText>
+                        </Label>
+                        <Grid Margin="0,5">
+                            <Frame Opacity="0.3" BackgroundColor="Gray" CornerRadius="5"/>
+                            <Editor x:Name="SavedOpis" Placeholder="Własny Opis" HeightRequest="200" TextChanged="SaveOpisChanged"/>
+                        </Grid>
+
+                        <Label FontSize="18">
+                            <Label.FormattedText>
+                                <FormattedString>
+                                    <Span Text="Stopień" />
+                                    <Span Text=" *" TextColor="Red" />
+                                </FormattedString>
+                            </Label.FormattedText>
+                        </Label>
+                        <Grid Margin="0,5">
+                            <Frame Opacity="0.3" BackgroundColor="Gray" CornerRadius="5"/>
+                            <Picker x:Name="StopienPick" Title="Stopień" SelectedIndex="0">
+                                <Picker.ItemsSource>
+                                    <x:Array Type="{x:Type x:String}">
+                                        <x:String>Licencjackie</x:String>
+                                        <x:String>Inżynierskie</x:String>
+                                        <x:String>Magisterskie</x:String>
+                                    </x:Array>
+                                </Picker.ItemsSource>
+                            </Picker>
+                        </Grid>
+
+                        <Label FontSize="18">
+                            <Label.FormattedText>
+                                <FormattedString>
+                                    <Span Text="Kierunek" />
+                                    <Span Text=" *" TextColor="Red" />
+                                </FormattedString>
+                            </Label.FormattedText>
+                        </Label>
+                        <Grid Margin="0,5">
+                            <Frame Opacity="0.3" BackgroundColor="Gray" CornerRadius="5"/>
+                            <Picker x:Name="KierunekPick" Title="Kierunek" SelectedIndex="0">
+                                <Picker.ItemsSource>
+                                    <x:Array Type="{x:Type x:String}">
+                                        <x:String>Matematyka Stosowana i Analiza Danych</x:String>
+                                        <x:String>Nauczanie Matematyki i Informatyki</x:String>
+                                        <x:String>Informatyka Ogólna</x:String>
+                                        <x:String>Inżynieria Systemów Informatycznych</x:String>
+                                        <x:String>Modelowanie Matematyczne i Analiza Danych</x:String>
+                                        <x:String>Data Science w Praktyce</x:String>
+                                        <x:String>Projektowanie Systemów Informatycznych i Sieci Komputerowych</x:String>
+                                    </x:Array>
+                                </Picker.ItemsSource>
+                            </Picker>
+                        </Grid>
+
+                        <Label FontSize="18">
+                            <Label.FormattedText>
+                                <FormattedString>
+                                    <Span Text="Rok Studiów" />
+                                    <Span Text=" *" TextColor="Red" />
+                                </FormattedString>
+                            </Label.FormattedText>
+                        </Label>
+                        <Grid Margin="0,5">
+                            <Frame Opacity="0.3" BackgroundColor="Gray" CornerRadius="5"/>
+                            <Picker x:Name="RokPick" Title="Rok Studiów" SelectedIndex="0">
+                                <Picker.ItemsSource>
+                                    <x:Array Type="{x:Type x:String}">
+                                        <x:String>I</x:String>
+                                        <x:String>II</x:String>
+                                        <x:String>III</x:String>
+                                        <x:String>IV</x:String>
+                                    </x:Array>
+                                </Picker.ItemsSource>
+                            </Picker>
+                        </Grid>
+
+                        <Label FontSize="18">
+                            <Label.FormattedText>
+                                <FormattedString>
+                                    <Span Text="Forma Studiów" />
+                                    <Span Text=" *" TextColor="Red" />
+                                </FormattedString>
+                            </Label.FormattedText>
+                        </Label>
+                        <Grid Margin="0,5">
+                            <Frame Opacity="0.3" BackgroundColor="Gray" CornerRadius="5"/>
+                            <Picker x:Name="FormaPick" Title="Forma Studiów" SelectedIndex="0">
+                                <Picker.ItemsSource>
+                                    <x:Array Type="{x:Type x:String}">
+                                        <x:String>Stacjonarne</x:String>
+                                        <x:String>Niestacjonarne</x:String>
+                                    </x:Array>
+                                </Picker.ItemsSource>
+                            </Picker>
+                        </Grid>
+
+                    </StackLayout>
+                </ScrollView>
+            </Grid>
+
+            <Grid Grid.Row="2" Margin="20,5,20,5">
+                <Label Style="{StaticResource SubHeadline}" FontSize="16" x:Name="CheckEditedUserPlaceholder"/>
+            </Grid>
+
+            <Grid Grid.Row="3" Margin="20,5,20,5">
+                <Button Margin="0,15" Text="Zmień Hasło" FontFamily="OpenSans-Semibold" Clicked="OnChangePasswordClicked" />
+            </Grid>
+
+            <Grid Grid.Row="4" Margin="20,5,20,5">
+                <Button Margin="0,15" Text="Zapisz" FontFamily="OpenSans-Semibold" Clicked="CheckEditedUser" />
+            </Grid>
+
+        </Grid>
+    </StackLayout>
+
+</ContentPage>

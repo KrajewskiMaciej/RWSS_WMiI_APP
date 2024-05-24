@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RWSS_WMiI.Views.PasswdChg"
+             Title = "Zzmiana Hasła"
+             Shell.FlyoutItemIsVisible="False"
+             Shell.TabBarIsVisible="False"
+             Shell.FlyoutBehavior="Disabled">
+
+    <Grid>
+        <StackLayout Spacing="30" Padding="5,30,5,0">
+
+            <Image 
+            Source="logo_rwss.png"
+            HeightRequest="100"/>
+
+            <Line Stroke="{StaticResource Black}" StrokeThickness="1" X1="0" X2="512"/>
+
+            <StackLayout 
+        Margin="30,0,30,0"
+        Spacing="15">
+
+                <StackLayout>
+
+                    <Label FontSize="18" Text="Stare Hasło"/>
+                    <Grid Margin="0,5">
+                        <Frame Opacity="0.3" BackgroundColor="Gray" CornerRadius="5"/>
+                        <Entry BackgroundColor="Transparent" Placeholder="Stare Hasło" TextColor="White" Margin="5,0" PlaceholderColor="Gray" IsPassword="True" TextChanged="SaveOldPassword">
+                            <Entry.Keyboard>
+                                <Keyboard x:FactoryMethod="Create">
+                                    <x:Arguments>
+                                        <KeyboardFlags>CapitalizeNone</KeyboardFlags>
+                                    </x:Arguments>
+                                </Keyboard>
+                            </Entry.Keyboard>
+                        </Entry>
+                    </Grid>
+
+                    <Label FontSize="18" Text="Nowe Hasło"/>
+                    <Grid Margin="0,5">
+                        <Frame Opacity="0.3" BackgroundColor="Gray" CornerRadius="5"/>
+                        <Entry BackgroundColor="Transparent"
+                           Placeholder="Nowe Hasło"
+                           TextColor="White"
+                           Margin="5,0"
+                           PlaceholderColor="Gray"
+                           IsPassword="True"
+                           TextChanged="SaveNewPassword"
+                           
+                           >
+                            <Entry.Keyboard>
+                                <Keyboard x:FactoryMethod="Create">
+                                    <x:Arguments>
+                                        <KeyboardFlags>CapitalizeNone</KeyboardFlags>
+                                    </x:Arguments>
+                                </Keyboard>
+                            </Entry.Keyboard>
+                        </Entry>
+                    </Grid>
+
+                    <Label FontSize="18" Text="Powtórz nowe Hasło"/>
+                    <Grid Margin="0,5">
+                        <Frame Opacity="0.3" BackgroundColor="Gray" CornerRadius="5"/>
+                        <Entry BackgroundColor="Transparent" Placeholder="Powtórz nowe Hasło" TextColor="White" Margin="5,0" PlaceholderColor="Gray" IsPassword="True" TextChanged="SaveTmpPassword">
+                            <Entry.Keyboard>
+                                <Keyboard x:FactoryMethod="Create">
+                                    <x:Arguments>
+                                        <KeyboardFlags>CapitalizeNone</KeyboardFlags>
+                                    </x:Arguments>
+                                </Keyboard>
+                            </Entry.Keyboard>
+                        </Entry>
+                    </Grid>
+
+                    <StackLayout VerticalOptions="FillAndExpand" Orientation="Horizontal">
+                        <Label Style="{StaticResource SubHeadline}" FontSize="10" x:Name="CheckPasswd" TextColor="Red"/>
+                    </StackLayout>
+
+                </StackLayout>
+
+                <Button Margin="0,15" Text="Zmień hasło" FontFamily="OpenSans-Semibold" Clicked="CheckPasswdAccurate" />
+
+            </StackLayout>
+        </StackLayout>
+    </Grid>
+
+</ContentPage>

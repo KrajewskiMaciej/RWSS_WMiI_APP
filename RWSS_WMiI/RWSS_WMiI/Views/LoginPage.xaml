@@ -4,12 +4,11 @@
              x:Class="RWSS_WMiI.Views.LoginPage"
              Shell.FlyoutItemIsVisible="False"
              Shell.TabBarIsVisible="False"
-             Shell.FlyoutBehavior="Disabled">
+             Shell.FlyoutBehavior="Disabled"
+             Title="Logowanie">
 
     <Grid>
-
         <StackLayout Spacing="30" Padding="5,30,5,0">
-            <Label FontFamily="OpenSans-Semibold" Text="RWSS WMiI App" Style="{StaticResource Headline}"/>
 
             <Image 
                 Source="logo_rwss.png"
@@ -21,26 +20,12 @@
             Margin="30,0,30,0"
             Spacing="15">
 
-                
-
-                <StackLayout Padding="25,0,25,25">
-                    <Label Text="Logowanie" FontSize="30" Style="{StaticResource SubHeadline}"/>
-                </StackLayout>
-
                 <StackLayout>
                     
                     <Label FontSize="18" Text="Użytkownik"/>
                     <Grid Margin="0,5">
                         <Frame Opacity="0.3" BackgroundColor="Gray" CornerRadius="5"/>
-                        <Entry BackgroundColor="Transparent"
-                               Placeholder="Nazwa"
-                               TextColor="White"
-                               Margin="5,0"
-                               PlaceholderColor="Gray"
-                               ClearButtonVisibility="WhileEditing"
-                               TextChanged="SaveLogin"
-                               ReturnType="Next"
-                            >
+                        <Entry BackgroundColor="Transparent" Placeholder="Nazwa" Margin="5,0" PlaceholderColor="Gray" ClearButtonVisibility="WhileEditing" TextChanged="SaveLogin" ReturnType="Next">
                             <Entry.Keyboard>
                                 <Keyboard x:FactoryMethod="Create">
                                     <x:Arguments>
@@ -56,7 +41,6 @@
                         <Frame Opacity="0.3" BackgroundColor="Gray" CornerRadius="5"/>
                         <Entry BackgroundColor="Transparent"
                                Placeholder="Hasło"
-                               TextColor="White"
                                Margin="5,0"
                                PlaceholderColor="Gray"
                                IsPassword="True"
@@ -74,7 +58,7 @@
                     </Grid>
                     
                     <StackLayout VerticalOptions="FillAndExpand" Orientation="Horizontal">
-                        <Label Style="{StaticResource SubHeadline}" FontSize="10" x:Name="CheckLogin" TextColor="Red"/>
+                        <Label Style="{StaticResource SubHeadline}" FontSize="10" x:Name="CheckLogin"/>
                     </StackLayout>
                     
                 </StackLayout>
@@ -85,6 +69,8 @@
                     <Label Text="Przypomnij Hasło" VerticalOptions="EndAndExpand"/>
 
                 </StackLayout>
+
+                <Button Margin="0,15" Text="Nie posiadam Konta" FontFamily="OpenSans-Semibold" Clicked="BackToStart" />
 
             </StackLayout>
         </StackLayout>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RWSS_WMiI.Views.EditEvent"
+             xmlns:local="clr-namespace:RWSS_WMiI"
+             Title="Edytuj Wydarzenie">
+
+    <StackLayout>
+        <Grid Padding="5,30,5,0">
+
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition Height="500"/>
+                <RowDefinition />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+
+            <Grid Grid.Row="1">
+                <ScrollView>
+                    <StackLayout Padding="5,30,5,0">
+
+                        <Label FontSize="18">
+                            <Label.FormattedText>
+                                <FormattedString>
+                                    <Span Text="Nazwa Wydarzenia" />
+                                    <Span Text=" *" TextColor="Red" />
+                                </FormattedString>
+                            </Label.FormattedText>
+                        </Label>
+                        <Grid Margin="0,5">
+                            <Frame Opacity="0.3" BackgroundColor="Gray" CornerRadius="5"/>
+                            <Entry BackgroundColor="Transparent" Placeholder="Nazwa" Margin="5,0" PlaceholderColor="Gray" TextChanged="SaveName" ClearButtonVisibility="WhileEditing" ReturnType="Next" x:Name="SavedName">
+                            </Entry>
+                        </Grid>
+
+                        <Label FontSize="18">
+                            <Label.FormattedText>
+                                <FormattedString>
+                                    <Span Text="Opis Wydarzenia" />
+                                    <Span Text=" *" TextColor="Red" />
+                                </FormattedString>
+                            </Label.FormattedText>
+                        </Label>
+                        <Grid Margin="0,5">
+                            <Frame Opacity="0.3" BackgroundColor="Gray" CornerRadius="5"/>
+                            <Editor x:Name="EventTextAdd" Placeholder="Opis wydarzenie" HeightRequest="200" TextChanged="EventTextChanged"/>
+                        </Grid>
+
+                        <Label FontSize="18">
+                            <Label.FormattedText>
+                                <FormattedString>
+                                    <Span Text="Początek Wydarzenia" />
+                                    <Span Text=" *" TextColor="Red" />
+                                </FormattedString>
+                            </Label.FormattedText>
+                        </Label>
+                        <Grid Margin="0,5">
+                            <Frame Opacity="0.3" BackgroundColor="Gray" CornerRadius="5"/>
+                            <local:DateTimePicker x:Name="EventStartDate"/>
+                        </Grid>
+
+
+                        <Label FontSize="18">
+                            <Label.FormattedText>
+                                <FormattedString>
+                                    <Span Text="Koniec Wydarzenia" />
+                                </FormattedString>
+                            </Label.FormattedText>
+                        </Label>
+                        <Grid Margin="0,5">
+                            <Frame Opacity="0.3" BackgroundColor="Gray" CornerRadius="5"/>
+                            <local:DateTimePicker x:Name="EventEndDate"/>
+                        </Grid>
+
+                        <Label FontSize="18">
+                            <Label.FormattedText>
+                                <FormattedString>
+                                    <Span Text="Link do wydarzenia" />
+                                </FormattedString>
+                            </Label.FormattedText>
+                        </Label>
+                        <Grid Margin="0,5">
+                            <Frame Opacity="0.3" BackgroundColor="Gray" CornerRadius="5"/>
+                            <Entry BackgroundColor="Transparent" Placeholder="http://wmii.uwm.edu.pl/rwss" Margin="5,0" PlaceholderColor="Gray" TextChanged="EventLinkSave" ReturnType="Next" x:Name="SavedLink" >
+                            </Entry>
+                        </Grid>
+
+                        <Label FontSize="18">
+                            <Label.FormattedText>
+                                <FormattedString>
+                                    <Span Text="Wysłać Przypomnienie?" />
+                                    <Span Text=" *" TextColor="Red" />
+                                </FormattedString>
+                            </Label.FormattedText>
+                        </Label>
+                        <Grid Margin="0,5">
+                            <Frame Opacity="0.3" BackgroundColor="Gray" CornerRadius="5"/>
+                            <Picker x:Name="SendReminder" Title="Tak/Nie (Na razie nie działa ( i tak domyślnie jest Nie))" SelectedIndex="1">
+                                <Picker.ItemsSource ItemSelected="Nie">
+                                    <x:Array Type="{x:Type x:String}">
+                                        <x:String>Tak</x:String>
+                                        <x:String>Nie</x:String>
+                                    </x:Array>
+                                </Picker.ItemsSource>
+                            </Picker>
+                        </Grid>
+
+                    </StackLayout>
+                </ScrollView>
+            </Grid>
+
+            <Grid Grid.Row="2" Margin="20">
+                <Label Style="{StaticResource SubHeadline}" FontSize="16" x:Name="CheckEditedEventPlaceholder"/>
+            </Grid>
+
+            <Grid Grid.Row="3" Margin="20">
+                <Button Margin="0,15" Text="Edytuj Wydarzenie" FontFamily="OpenSans-Semibold" Clicked="CheckEditedEvent" />
+            </Grid>
+
+        </Grid>
+    </StackLayout>
+
+</ContentPage>

@@ -2,13 +2,11 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="RWSS_WMiI.Views.About"
-             Shell.FlyoutItemIsVisible="False"
-             Shell.TabBarIsVisible="False"
-             Shell.FlyoutBehavior="Disabled">
+             Title="O Aplikacji">
 
     <Grid>
         <StackLayout Spacing="30" Padding="5,30,5,0">
-            <Label FontFamily="OpenSans-Semibold" Text="O aplikacji" Style="{StaticResource Headline}"/>
+
 
             <Image
                 Source="logo_rwss.png"
@@ -16,11 +14,11 @@
 
             <Line Stroke="{StaticResource Black}" StrokeThickness="1" X1="0" X2="512"/>
 
-            <StackLayout
-                Margin="20"
-                >
+            <StackLayout Padding="10,0,10,0" x:Name="UsersAbout">
+                <Label
+                    Text="Testowanie aplikacji bunkier-klucz-portiernia &#10; dla RWSS WMiI &#10; Testy przeprowadzane na: &#10; Redmi Note 11 Pro &#10;"
+                    Style="{StaticResource SubHeadline}"/>
 
-                
 
                 <Label
                 Text="Aplikcaja służy do: &#10;
@@ -40,20 +38,50 @@
                 />
 
                 <Label Padding="0,0,0,30"
-                Text=" Autorzy: &#10; Maciej Krajewski, Jakub Baliński"
+                Text=" Autorzy: &#10; Maciej Krajewski"
                 FontSize="12"
                 HorizontalTextAlignment="Center"
                 
                 />
-                
+
                 <Label
                 Text="Wykonane na zlecenie RWSS WMiI UWM w Olsztynie"
                 FontSize="8"
                 HorizontalTextAlignment="Center"
                 />
 
-                <Button VerticalOptions="End" Margin="0,15" Text="Wróć na Stronę Główną" FontFamily="OpenSans-Semibold" Command="{Binding MainPageCommand}" />
+                <Label Text="***** ****" FontSize="8" HorizontalTextAlignment="Center"/>
 
+            </StackLayout>
+
+
+            <StackLayout Margin="20" x:Name="GuestsAbout">
+
+                <Label
+            Text="Aplikacja udostępniona dla studentów &#10;WMiI UWM, &#10;stworzona na potrzeby i z polecenia &#10;RWSS WMiI"
+            FontSize="20"
+            HorizontalTextAlignment="Center"
+            />
+
+                <Label
+            Text="&#10; &#10; "
+            FontSize="15"
+            HorizontalTextAlignment="Center"
+            />
+
+                <Label Padding="0,0,0,30"
+            Text=" Autorzy: &#10; Maciej Krajewski"
+            FontSize="12"
+            HorizontalTextAlignment="Center"
+            
+            />
+
+                <Label
+            Text="Wykonane na zlecenie RWSS WMiI UWM w Olsztynie &#10; &#10;"
+            FontSize="8"
+            HorizontalTextAlignment="Center"
+            />
+                <Label Text="***** ****" FontSize="8" HorizontalTextAlignment="Center"/>
             </StackLayout>
         </StackLayout>
     </Grid>

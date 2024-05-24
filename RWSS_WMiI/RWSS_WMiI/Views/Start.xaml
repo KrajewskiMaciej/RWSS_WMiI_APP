@@ -4,16 +4,13 @@
              x:Class="RWSS_WMiI.Views.Start"
              Shell.FlyoutItemIsVisible="False"
              Shell.TabBarIsVisible="False"
-             Shell.FlyoutBehavior="Disabled">
+             Shell.FlyoutBehavior="Disabled"
+             Title="RWSS WMiI APP">
 
     <Grid>
-
         <Grid Padding="5,30,5,0">
 
             <StackLayout VerticalOptions="Start" Spacing="30">
-
-
-                <Label FontFamily="OpenSans-Semibold" Text="RWSS WMiI APP" Style="{StaticResource Headline}"/>
 
                 <Image
                 Source="logo_rwss.png"
@@ -31,13 +28,12 @@
                 <Button
                 Text="Jestem Studentem WMiI"
                 HorizontalOptions="Fill"
-                Command="{Binding MainPageCommand}"/>
+                    Clicked="OnStudentButtonClicked"/>
 
                 <Button
                 Text="Jestem członkiem RWSS WMiI" 
                 HorizontalOptions="Fill"
-                Command="{Binding LoginPageCommand}"
-                />
+                Clicked="OnRwssButtonClicked"/>
 
             </StackLayout>
 

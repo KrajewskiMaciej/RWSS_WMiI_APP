@@ -4,42 +4,38 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:RWSS_WMiI"
-    xmlns:views="clr-namespace:RWSS_WMiI.Views"
-    Title="RWSS_WMiI">
-
-        <ShellContent ContentTemplate="{DataTemplate views:Start}" Route="Start"/>
-        <ShellContent ContentTemplate="{DataTemplate views:LoginPage}" Route="LoginPage"/>
-        <ShellContent ContentTemplate="{DataTemplate views:About}" Route="About"/>
-
-        <TabBar>
+    xmlns:views="clr-namespace:RWSS_WMiI.Views">
 
 
-        <Tab Title="Strona Główna" Icon="main_page.png" x:Name="MainPageTab">
-            <ShellContent ContentTemplate="{DataTemplate views:MainPage}" Route="MainPage"/>
-        </Tab>
-
-        <Tab Title="Aktualności" Icon="info.png" x:Name="InfoTab">
-            <ShellContent ContentTemplate="{DataTemplate views:Info}" Route="Info"/>
-        </Tab>
-
-        <Tab Title="Planszówki" Icon="boardgames.png" x:Name="BoardgamesTab">
-            <ShellContent ContentTemplate="{DataTemplate views:Boardgames}" Route="Boardgames"/>
-        </Tab>
-
-        <Tab Title="Konto" Icon="account.png" x:Name="AccountTab">
-            <ShellContent ContentTemplate="{DataTemplate views:Account}" Route="Account"/>
-        </Tab>
-
-        <Tab Title="O Aplikacji" Icon="about.png" x:Name="GuestAboutTab">
-            <ShellContent ContentTemplate="{DataTemplate views:GuestAbout}" Route="GuestAbout"/>
-        </Tab>
-
-        
+    <ShellContent ContentTemplate="{DataTemplate views:Start}" Route="Start" Title="RWSS WMiI APP"/>
+    <ShellContent ContentTemplate="{DataTemplate views:LoginPage}" Route="LoginPage" Title="Logowanie"/>
+    <ShellContent ContentTemplate="{DataTemplate views:PasswdChg}" Route="PasswdChg" Title="Zmiana hasła"/>
 
 
+    <Tab Title="RWSS" Icon="users.png" x:Name="UsersTab">
+        <ShellContent ContentTemplate="{DataTemplate views:UsersCard}" Route="UsersCard" Title="Struktura"/>
+        <ShellContent ContentTemplate="{DataTemplate views:Account}" Route="Account" Title="Konto"/>
+        <ShellContent ContentTemplate="{DataTemplate views:EditAccount}" Route="EditAccount" Title="Edytuj Konto"/>
+        <ShellContent ContentTemplate="{DataTemplate views:AddNewUser}" Route="AddNewUser" Title="Nowy Użytkownik"/>
+    </Tab>
 
-    </TabBar>
-    
+    <Tab Title="Aktualności" Icon="info.png" x:Name="InfoTab">
+        <ShellContent ContentTemplate="{DataTemplate views:Info}" Route="Info" Title="Aktualności"/>
+        <ShellContent ContentTemplate="{DataTemplate views:AddNewEvent}" Route="AddNewEvent" Title="Nowe Wydarzenie"/>
+        <ShellContent ContentTemplate="{DataTemplate views:EditEvent}" Route="EditEvent" Title="Edytuj Wydarzenie"/>
+    </Tab>
 
+    <Tab Title="Strona Główna" Icon="main_page.png" x:Name="MainPageTab">
+        <ShellContent ContentTemplate="{DataTemplate views:Main}" Route="Main" Title="Strona Główna"/>
+    </Tab>
 
+    <Tab Title="Planszówki" Icon="boardgames.png" x:Name="BoardgamesTab">
+        <ShellContent ContentTemplate="{DataTemplate views:Boardgames}" Route="Boardgames" Title="Planszówki"/>
+        <ShellContent ContentTemplate="{DataTemplate views:BoardgameHistory}" Route="BoardgameHistory" Title="Historia Planszówki"/>
+    </Tab>
+
+    <Tab Title="Ustawienia" Icon="settings.png" x:Name="Settings">
+        <ShellContent ContentTemplate="{DataTemplate views:Settings}" Route="Settings" Title="Ustawienia"/>
+        <ShellContent ContentTemplate="{DataTemplate views:About}" Route="About" Title="O Aplikacji"/>
+    </Tab>
 </Shell>

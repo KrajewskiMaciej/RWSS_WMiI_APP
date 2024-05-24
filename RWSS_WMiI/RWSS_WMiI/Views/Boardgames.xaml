@@ -1,32 +1,96 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="RWSS_WMiI.Views.Boardgames">
+             x:Class="RWSS_WMiI.Views.Boardgames"
+			 Title="Planszówki">
+	
+    
+	
+	<StackLayout>
 
-    <ScrollView>
-        <StackLayout Spacing="30" Padding="5,30,5,0">
-            <Label FontFamily="OpenSans-Semibold" Text="Plansz�wki" Style="{StaticResource Headline}"/>
+		<Grid Padding="5,30,5,0">
 
-            <Image
-                Source="logo_rwss.png"
-                HeightRequest="100"/>
-
-            <Line Stroke="{StaticResource Black}" StrokeThickness="1" X1="0" X2="512"/>
-
-            <VerticalStackLayout
-            Margin="30"
-            Spacing="15">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition Height="575"/>
+            </Grid.RowDefinitions>
 
 
+            <StackLayout VerticalOptions="Start">
+                <Button x:Name="AddBoardgame" Text="Dodaj Nową Planszówkę" HorizontalOptions="End" VerticalOptions="End" Clicked="AddBoardgameClicked" IsVisible="False"/>
+                <SearchBar Placeholder="" TextChanged="OnSearchChanged"/>
 
-                <Label
-                Text="W trakcie budowy"
-                FontSize="20"
-                HorizontalTextAlignment="Center"
-                />
+            </StackLayout>
 
-            </VerticalStackLayout>
-        </StackLayout>
-    </ScrollView>
+            <Grid Grid.Row="1" Margin="1,20,1,20" x:Name="Users">
+				<ScrollView>
+                    <StackLayout>
+
+                        <ListView x:Name="BoardgamesListView" RowHeight="90" SeparatorVisibility="None" SelectionMode="None">
+							<ListView.ItemTemplate>
+                                <DataTemplate>
+
+                                    <ViewCell>
+										<Grid>
+
+											<Frame CornerRadius="15" Margin="5,1,6,1" Padding="5,5,5,5" x:Name="FrameBoardgame">
+												<Grid ColumnSpacing="5" x:Name="Boardgame">
+													<Grid.RowDefinitions>
+														<RowDefinition Height="40" />
+														<RowDefinition Height="17"/>
+														<RowDefinition Height="17"/>
+													</Grid.RowDefinitions>
+													<Grid.ColumnDefinitions>
+														<ColumnDefinition Width="45"/>
+														<ColumnDefinition />
+                                                        <ColumnDefinition Width="{Binding ColumnWidth}"/>
+														<ColumnDefinition Width="{Binding ColumnWidth}"/>
+													</Grid.ColumnDefinitions>
+
+													<Grid Grid.Row="0" Grid.RowSpan="3">
+                                                        <Label Text="{Binding ID}" Style="{StaticResource Headline}" VerticalOptions="Center" HorizontalOptions="Center"/>
+                                                    </Grid>
+
+													<Grid Grid.Column="1">
+														<Label Padding="0,0,0,0" Text="{Binding Name}" Style="{StaticResource SubHeadline}" VerticalOptions="Start" HorizontalOptions="Start" FontSize="20"/>
+
+													</Grid>
+
+													<Grid Grid.Row="2" Grid.Column="1">
+														<Label Text="{Binding RentedToStatus}" VerticalOptions="Start" HorizontalOptions="Start" FontSize="10"/>
+
+													</Grid>
+													<Grid Grid.Row="1" Grid.Column="1">
+                                                        <HorizontalStackLayout>
+                                                            <BoxView Color="{Binding StatusColor}" CornerRadius="10" HeightRequest="10" WidthRequest="10" VerticalOptions="Center" HorizontalOptions="Start"/>
+                                                            <Label Text="{Binding Status}" VerticalOptions="Start" HorizontalOptions="Start" Padding="5,0,0,0" FontSize="15"/>
+                                                        </HorizontalStackLayout>
+                                                        
+													</Grid>
+
+													<Grid Grid.Row="0" Grid.Column="2" Grid.RowSpan="3" Padding="0,5,0,5">
+														<Button Text="{Binding ROG}" Padding="1" IsVisible="{Binding IsRentButtonVisible}" Clicked="ButtonRentClicked"/>
+													</Grid>
+
+                                                    <Grid Grid.Row="0" Grid.Column="3" Grid.RowSpan="3" Padding="0,5,0,5">
+														<Button Text="Historia" Padding="1" IsVisible="{Binding IsHistoryButtonVisible}" Clicked="ButtonHistoryClicked"/>
+													</Grid>
+												</Grid>
+											</Frame>
+
+										</Grid>
+									</ViewCell>
+                                    
+								</DataTemplate>
+							</ListView.ItemTemplate>
+						</ListView>
+
+					</StackLayout>
+				</ScrollView>
+			</Grid>
+			
+		</Grid>
+	</StackLayout>
+    
 
 </ContentPage>

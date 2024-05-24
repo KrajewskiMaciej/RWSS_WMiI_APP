@@ -1,32 +1,107 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="RWSS_WMiI.Views.Info">
+             x:Class="RWSS_WMiI.Views.Info"
+             Title="Aktualności">
 
-    <ScrollView>
-        <StackLayout Spacing="30" Padding="5,30,5,0">
-            <Label FontFamily="OpenSans-Semibold" Text="Aktualności" Style="{StaticResource Headline}"/>
+    <StackLayout>
+        <Grid Padding="5,30,5,0">
 
-            <Image
-                Source="logo_rwss.png"
-                HeightRequest="100"/>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition Height="500"/>
+            </Grid.RowDefinitions>
 
-            <Line Stroke="{StaticResource Black}" StrokeThickness="1" X1="0" X2="512"/>
+            <StackLayout VerticalOptions="Start" Spacing="30">
 
-            <VerticalStackLayout
-            Margin="30"
-            Spacing="15">
+                <Image
+        Source="logo_rwss.png"
+        HeightRequest="100"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"/>
 
-                
+                <Line Stroke="{StaticResource Black}" StrokeThickness="1" X1="0" X2="512" VerticalOptions="End"/>
 
-                <Label
-                Text="Tutaj będą pojawiać się aktalne inforamcje o nadchodzących wydarzeniach"
-                FontSize="20"
-                HorizontalTextAlignment="Center"
-                />
+            </StackLayout>
 
-            </VerticalStackLayout>
-        </StackLayout>
-    </ScrollView>
+            <Grid Grid.Row="1" Margin="1,20,1,20">
+                <ScrollView>
+                    <StackLayout>
+                        <!-- Przycisk dodawania nowej kolumny -->
+                        <Frame CornerRadius="15" Margin="5,1,5,1" Padding="5,5,5,5" HeightRequest="60" x:Name="AddButtonFrame" WidthRequest="60" >
+                            <ImageButton Source="add.png" Clicked="AddNewEvent" x:Name="AddButtonVis"/>
+                        </Frame>
+                        
+                        <ListView x:Name="eventsListView" RowHeight="230" SeparatorVisibility="None" ItemSelected="OnEventSelected">
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <ViewCell>
+                                    <Grid>
+
+                                        <Frame CornerRadius="15" Margin="5,1,5,1" Padding="5,5,5,5">
+                                            <Grid RowSpacing="1">
+                                                <Grid.RowDefinitions>
+                                                    <RowDefinition Height="60" />
+                                                    <RowDefinition Height="110"/>
+                                                    <RowDefinition Height="45"/>
+                                                </Grid.RowDefinitions>
+
+                                                <Grid Grid.Row="0">
+                                                    <Label Padding="5,0,0,5" Text="{Binding Name}" Style="{StaticResource SubHeadline}" VerticalOptions="Start" HorizontalOptions="Start" FontSize="25"/>
+                                                    <Line Stroke="{StaticResource Black}" StrokeThickness="2" X1="0" X2="512" VerticalOptions="End"/>
+                                                </Grid>
+
+                                                <Grid Grid.Row="1">
+                                                    <ScrollView>
+                                                        <Label Text="{Binding Text}" VerticalOptions="Start" HorizontalOptions="Start" Padding="5,0,0,0" FontSize="18"/>
+                                                    </ScrollView>
+                                                </Grid>
+
+                                                <Grid Grid.Row="2" RowSpacing="5">
+                                                    <Grid.RowDefinitions >
+                                                        <RowDefinition Height="20"/>
+                                                        <RowDefinition Height="20"/>
+                                                    </Grid.RowDefinitions>
+                                                    <Grid.ColumnDefinitions>
+                                                        <ColumnDefinition/>
+                                                        <ColumnDefinition Width="{Binding LinkColumnWidth}"/>
+                                                        <ColumnDefinition Width="{Binding MoreColumnWidth}"/>
+                                                    </Grid.ColumnDefinitions>
+                                                    
+                                                    <Grid Grid.Row="0" Grid.ColumnSpan="3">
+                                                        <Line Stroke="{StaticResource Black}" StrokeThickness="1" X1="0" X2="512" VerticalOptions="Start"/>
+                                                        <Label Text="{Binding DateRange}" VerticalOptions="End" HorizontalOptions="Start" Padding="5,0,0,0" FontSize="15"/>
+                                                    </Grid>
+                                                    
+                                                    <Grid Grid.Row="0" Grid.RowSpan="2" Grid.Column="1">
+                                                        <ImageButton Source="link.png" Padding="15" IsVisible="{Binding IsLinkButtonVisible}"/>
+                                                    </Grid>
+
+                                                    <Grid Grid.Row="0" Grid.RowSpan="2" Grid.Column="2">
+                                                        <ImageButton Source="more.png" Padding="15" Clicked="ButtonMoreClicked" IsVisible="{Binding IsMoreButtonVisible}"/>
+                                                    </Grid>
+                                                    <Grid Grid.Row="1">
+                                                        <Label Text="{Binding WA}" VerticalOptions="Start" HorizontalOptions="Start" Padding="5,0,0,0" FontSize="13"/>
+                                                    </Grid>
+                                                </Grid>
+                                                
+                                            </Grid>
+                                        </Frame>
+
+                                    </Grid>
+                                </ViewCell>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                    </StackLayout>
+                </ScrollView>
+            </Grid>
+
+        </Grid>
+        
+        
+    </StackLayout>
+    
+    
 
 </ContentPage>

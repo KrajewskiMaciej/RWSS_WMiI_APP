@@ -1,39 +1,84 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="RWSS_WMiI.Views.Account">
+             x:Class="RWSS_WMiI.Views.Account"
+             Shell.TabBarIsVisible="True"
+             Title="Konto">
 
-    <ScrollView>
-        <StackLayout Spacing="30" Padding="5,30,5,0">
-            <Label FontFamily="OpenSans-Semibold" Text="Konto" Style="{StaticResource Headline}"/>
+    <StackLayout>
+        <Grid Padding="5,15,5,0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="140" />
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="2*"/>
+            </Grid.RowDefinitions>
 
-            <Image
-                Source="logo_rwss.png"
-                HeightRequest="100"/>
+            <StackLayout VerticalOptions="Start" Spacing="0">
 
-            <Line Stroke="{StaticResource Black}" StrokeThickness="1" X1="0" X2="512"/>
+                <Grid ColumnSpacing="1">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="45" />
+                        <RowDefinition Height="55"/>
+                        <RowDefinition Height="50"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="100"/>
+                        <ColumnDefinition />
+                    </Grid.ColumnDefinitions>
 
-            <Grid>
-                
-                <VerticalStackLayout
-                    Margin="30"
-                    Spacing="15">
+                    <Grid Grid.Row="0" Grid.RowSpan="2">
+                        <BoxView Color="#353535" CornerRadius="50" HeightRequest="100" WidthRequest="100"/>
+                        <Frame BorderColor="Transparent" CornerRadius="50" HeightRequest="95" WidthRequest="95" IsClippedToBounds="True">
+                            <Image x:Name="UserImage" Source="{Binding ImageUrl, Converter={StaticResource ImageConverter}}"
+                                Aspect="AspectFill"
+                                Margin="5"
+                                HeightRequest="95"
+                                WidthRequest="95"
+                                />
+                        </Frame>
+                    </Grid>
 
-                    <Label
-                Text="Testowanie aplikacji bunkier-klucz-portiernia &#10; dla RWSS WMiI &#10; Testy przeprowadzane na: &#10; Redmi Note 11 Pro"
-                Style="{StaticResource SubHeadline}"/>
+                    <Grid Grid.Column="1" >
+                        <Label Padding="5,0,0,0" Text="Imie i Nazwisko" Style="{StaticResource SubHeadline}" x:Name="User" VerticalOptions="Start" HorizontalOptions="Start" FontSize="35"/>
+                        
+                    </Grid>
+                    <Grid Grid.Row="2" Grid.Column="1" Padding="0,0,0,10">
+                        
+                        <Label Padding="10,0,0,0" Text="KIerunek i Rok" x:Name="KiR" VerticalOptions="Start" HorizontalOptions="Start" FontSize="18"/>
+                        <Label Padding="10,0,0,0" Text="Stopień" x:Name="Stopien" VerticalOptions="End" HorizontalOptions="Start" FontSize="15"/>
+                    </Grid>
 
-                    <Button
-                Text="O Aplikacji" 
-                Command="{Binding AboutCommand}"
-                HorizontalOptions="Fill" />
+                    <Grid Grid.Row="1" Grid.Column="1" VerticalOptions="Center" >
+                        <VerticalStackLayout >
+                            <Label Text="Rola" x:Name="Role" VerticalOptions="Center" HorizontalOptions="Start" Padding="10,0,0,0" FontSize="20"/>
+                        </VerticalStackLayout>
+                    </Grid>
 
+                </Grid>
 
-                    <Button VerticalOptions="End" Text="Wyloguj" Command="{Binding LogoutCommand}" HorizontalOptions="Fill" />
+                <Line Stroke="{StaticResource Black}" StrokeThickness="1" X1="0" X2="512"/>
+            </StackLayout>
 
-                </VerticalStackLayout>
+            <Grid Grid.Row="1" Padding="10,20,10,10" RowSpacing="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="3*" />
+                    <RowDefinition Height="3*"/>
+                    <RowDefinition Height="3*"/>
+                </Grid.RowDefinitions>
+
+                <Grid Grid.Row="0">
+                    <Label Text="Opis" FontSize="20" Padding="15,0,0,15"/>
+                </Grid>
+                <Grid Grid.Row="1" Padding="5">
+                    <Frame BorderColor="{StaticResource Gray100}" CornerRadius="15" IsClippedToBounds="True" Opacity="0.3" BackgroundColor="Gray" Margin="-5"/>
+                    <Label Text="Opis Użytkownika" x:Name="UserText" VerticalOptions="Start"  HorizontalOptions="Start" Padding="10,0,10,0" FontSize="18"/>
+                </Grid>
+
+                <Button x:Name="EditButton" Text="Edytuj" HorizontalOptions="End" VerticalOptions="End" Clicked="EditAccountClicked"/>
+
             </Grid>
-        </StackLayout>
-    </ScrollView>
+
+        </Grid>
+    </StackLayout>
 
 </ContentPage>
